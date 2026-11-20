@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-20",
+ "statuses": {
+  "微博热搜": {
+   "ok": true,
+   "count": 30
+  },
+  "知乎热榜": {
+   "ok": true,
+   "count": 30
+  },
+  "B站日榜": {
+   "ok": true,
+   "count": 30
+  },
+  "抖音热榜": {
+   "ok": true,
+   "count": 20
+  },
+  "知乎直连": {
+   "ok": true,
+   "count": 30
+  },
+  "B站直连": {
+   "ok": true,
+   "count": 30
+  },
+  "Hacker News": {
+   "ok": true,
+   "count": 37
+  },
+  "GitHub Trending": {
+   "ok": true,
+   "count": 16
+  },
+  "arXiv": {
+   "ok": true,
+   "count": 40
+  },
+  "X / FxTwitter": {
+   "ok": true,
+   "count": 15
+  }
+ },
+ "stats": {
+  "in": 278,
+  "sensitive": 18,
+  "seen": 0,
+  "dup": 7,
+  "stale": 11,
+  "ai": 75,
+  "trend": 136
+ },
+ "cards": 8,
+ "note": "预览模式：未调用 DeepSeek，卡片内容为占位。",
+ "pushed": false
+}
