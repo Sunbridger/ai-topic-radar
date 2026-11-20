@@ -2,10 +2,9 @@
 """渲染：GitHub Pages 的 HTML 日报页 + 飞书消息卡片。"""
 
 import html
-import json
 from datetime import date
 
-FEISHU_LIMIT = 18 * 1024  # webhook 请求体上限 20KB，留出转义余量
+from . import config
 
 CSS = """
 :root{--bg:#faf7f2;--ink:#191714;--muted:#7a736b;--line:#e4ddd3;--accent:#c9442a;--card:#fffdf9}
@@ -119,63 +118,28 @@ def build_page(cards, date_str, note="", archive=None, latest=False):
 """
 
 
-# ---------------------------------------------------------------- 飞书卡片
+# ---------------------------------------------------------------- Bark 推送
 
-def _feishu_item(i, c):
-    angle = (c.get("angles") or [""])[0]
-    meta = " · ".join(x for x in (c.get("source"), c.get("heat")) if x)
-    content = f"**{i}. {c['title']}**\n{angle}"
-    if meta:
-        content += f"\n{meta}"
-    return {"tag": "div", "text": {"tag": "lark_md", "content": content}}
-
-
-def build_feishu_card(cards, date_str, page_url="", note=""):
-    header = {
-        "template": "orange",
-        "title": {"tag": "plain_text", "content": f"AI 选题日报 · {date_str[5:]}"},
+def build_bark_payload(cards, date_str, page_url="", note=""):
+    """Bark 通知：标题显示条数，正文列选题，点击跳全文页。"""
+    title = f"AI 选题日报 {date_str[5:]} · {len(cards)} 条"
+    if not cards:
+        body = "今日没有达到质量标准的选题。宁缺勿滥，明天见。"
+    else:
+        lines = [f"{i}. {c['title']}" for i, c in enumerate(cards, 1)]
+        if len(cards) < config.CARDS_MIN:
+            lines.append("")
+            lines.append(f"今日热点较少，仅 {len(cards)} 条达到标准。")
+        if note:
+            lines.append("")
+            lines.append(note)
+        body = "\n".join(lines)
+    payload = {
+        "title": title,
+        "body": body,
+        "group": config.BARK_GROUP,
+        "ttl": config.BARK_TTL,
     }
-    items = list(cards)
-    while True:
-        elements = []
-        if not items:
-            elements.append({
-                "tag": "div",
-                "text": {"tag": "lark_md",
-                         "content": "今日没有达到质量标准的选题。宁缺勿滥，明天见。"},
-            })
-        else:
-            intro = note or f"共 {len(items)} 条，按热度 × 匹配度排序。"
-            elements.append({"tag": "div", "text": {"tag": "lark_md", "content": intro}})
-            elements.append({"tag": "hr"})
-            for i, c in enumerate(items, 1):
-                elements.append(_feishu_item(i, c))
-            if len(items) < len(cards):
-                elements.append({
-                    "tag": "note",
-                    "elements": [{"tag": "plain_text",
-                                  "content": f"卡片超长，已省略 {len(cards) - len(items)} 条，完整内容见全文页"}],
-                })
-        if page_url:
-            elements.append({
-                "tag": "action",
-                "actions": [{
-                    "tag": "button",
-                    "text": {"tag": "plain_text", "content": "查看完整选题卡"},
-                    "type": "primary",
-                    "url": page_url,
-                }],
-            })
-        elements.append({
-            "tag": "note",
-            "elements": [{"tag": "plain_text",
-                          "content": "每天 06:45 抓取 · tophub / HN / arXiv / GitHub / X"}],
-        })
-        payload = {
-            "msg_type": "interactive",
-            "card": {"config": {"wide_screen_mode": True}, "header": header, "elements": elements},
-        }
-        size = len(json.dumps(payload, ensure_ascii=False).encode("utf-8"))
-        if size <= FEISHU_LIMIT or len(items) <= 1:
-            return payload, size
-        items = items[:-1]
+    if page_url:
+        payload["url"] = page_url
+    return payload

@@ -1,10 +1,10 @@
 # AI 选题雷达
 
-每天 06:45 抓取中文热榜与海外 AI 一手源，用 DeepSeek 加工成 8–10 条小红书向选题卡，推送到飞书群，全文发布到 GitHub Pages。
+每天 06:45 抓取中文热榜与海外 AI 一手源，用 DeepSeek 加工成 8–10 条小红书向选题卡，通过 Bark 推送到 iPhone，全文发布到 GitHub Pages。
 
 ## 产出
 
-- **飞书卡片**：标题 + 首条切入角度 + 来源热度，按钮跳转全文
+- **Bark 通知**：标题带条数，正文列选题标题，点击跳转全文页
 - **日报页**：`https://<owner>.github.io/ai-topic-radar/<YYYY-MM-DD>.html`，含事实、为什么火、3 个角度、2 个小红书标题、受众
 
 ## 数据源
@@ -31,7 +31,7 @@
 2. **Settings → Pages**：Source 选 `Deploy from a branch`，分支 `main`，目录 `/docs`。
 3. **Settings → Secrets and variables → Actions**：添加
    - `DEEPSEEK_API_KEY`：DeepSeek 平台创建的 API Key
-   - `FEISHU_WEBHOOK`：飞书群 → 设置 → 群机器人 → 添加「自定义机器人」后得到的 webhook 地址
+   - `BARK_ENDPOINT`：Bark App 里「服务器」页的推送地址，形如 `https://api.day.app/<key>`（带 `/title/body?…` 的示例地址也可直接粘贴）
 4. **Actions → daily-topics → Run workflow** 手动跑一次验证。
 5. 之后每天 06:45（北京时间）自动运行，7:00 前送达。
 
@@ -50,14 +50,14 @@ uv pip install -r requirements.txt
 # 生成占位预览页（不调 LLM、不推送）
 .venv/bin/python -m scripts.main --dry-run
 
-# 完整运行（需要 key 与 webhook）
-DEEPSEEK_API_KEY=sk-xxx FEISHU_WEBHOOK=https://open.feishu.cn/open-apis/bot/v2/hook/xxx \
+# 完整运行（需要 key 与 Bark 地址）
+DEEPSEEK_API_KEY=sk-xxx BARK_ENDPOINT=https://api.day.app/<key> \
   .venv/bin/python -m scripts.main
 ```
 
 ## 配置
 
-账号定位、关键词、敏感词、每源配额、X 账号列表都在 `scripts/config.py`；LLM 提示词在 `scripts/pipeline.py` 的 `SYSTEM_PROMPT`。
+账号定位、关键词、敏感词、每源配额、X 账号列表、Bark 分组与 TTL 都在 `scripts/config.py`；LLM 提示词在 `scripts/pipeline.py` 的 `SYSTEM_PROMPT`。
 
 ## 已知限制
 

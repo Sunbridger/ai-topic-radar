@@ -6,7 +6,11 @@ import re
 TIMEZONE = "Asia/Shanghai"
 DEDUPE_DAYS = 7
 CARDS_MAX = 10
-CARDS_MIN = 5  # 低于该数量照常推送，卡片里会注明「今日热点较少」
+CARDS_MIN = 5  # 低于该数量照常推送，通知里会注明「今日热点较少」
+
+# ---- Bark 推送 ----
+BARK_GROUP = "AI选题"
+BARK_TTL = 86400  # 通知在 Bark 服务端保留 24h，晚起也不会错过
 
 # ---- 中文热榜（tophub 聚合，每天只抓一次；节点 ID 见 tophub.today） ----
 TOPHUB_BASE = "https://tophub.today"

@@ -2,10 +2,10 @@
 """入口：抓取 → 过滤 → LLM 加工 → 生成页面 → 推送飞书。
 
 用法：
-    python -m scripts.main                 # 正式运行（需 DEEPSEEK_API_KEY / FEISHU_WEBHOOK）
-    python -m scripts.main --dry-run       # 不调 LLM、不推飞书，生成占位预览页
+    python -m scripts.main                 # 正式运行（需 DEEPSEEK_API_KEY / BARK_ENDPOINT）
+    python -m scripts.main --dry-run       # 不调 LLM、不推送，生成占位预览页
     python -m scripts.main --fetch-only    # 只抓取并输出候选 JSON
-    python -m scripts.main --no-push       # 正式加工但不推飞书
+    python -m scripts.main --no-push       # 正式加工但不推送
     python -m scripts.main --date 2026-11-21
 """
 
@@ -59,16 +59,25 @@ def page_base():
     return ""
 
 
-def push_feishu(payload):
-    webhook = os.environ.get("FEISHU_WEBHOOK", "").strip()
-    if not webhook:
-        raise RuntimeError("缺少环境变量 FEISHU_WEBHOOK")
-    r = requests.post(webhook, json=payload, timeout=20)
+def _bark_base(endpoint):
+    """支持两种写法：https://api.day.app/<key> 或带 /title/body?group=... 的示例地址。"""
+    from urllib.parse import urlsplit, urlunsplit
+
+    parts = urlsplit(endpoint.strip())
+    segs = [s for s in parts.path.split("/") if s]
+    key = segs[0] if segs else ""
+    return urlunsplit((parts.scheme or "https", parts.netloc or "api.day.app", f"/{key}", "", ""))
+
+
+def push_bark(payload):
+    endpoint = os.environ.get("BARK_ENDPOINT", "").strip()
+    if not endpoint:
+        raise RuntimeError("缺少环境变量 BARK_ENDPOINT")
+    r = requests.post(_bark_base(endpoint), json=payload, timeout=20)
     r.raise_for_status()
     data = r.json()
-    code = data.get("code", data.get("StatusCode"))
-    if code not in (0, None):
-        raise RuntimeError(f"飞书返回错误：{data}")
+    if data.get("code") not in (200, None):
+        raise RuntimeError(f"Bark 返回错误：{data}")
     return data
 
 
@@ -130,10 +139,10 @@ def main(argv=None):
     if args.dry_run or args.no_push:
         print("[push] 跳过（dry-run / no-push）")
     else:
-        payload, size = render.build_feishu_card(cards, date_str, url, note)
-        resp = push_feishu(payload)
+        payload = render.build_bark_payload(cards, date_str, url, note)
+        resp = push_bark(payload)
         pushed = True
-        print(f"[push] 飞书 OK，卡片 {size} 字节，响应 {resp}")
+        print(f"[push] Bark OK，响应 {resp}")
 
     (DATA / "last_run.json").write_text(json.dumps({
         "date": date_str,
