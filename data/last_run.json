@@ -39,19 +39,19 @@
   },
   "X / FxTwitter": {
    "ok": true,
-   "count": 15
+   "count": 6
   }
  },
  "stats": {
-  "in": 278,
-  "sensitive": 18,
+  "in": 269,
+  "sensitive": 19,
   "seen": 0,
   "dup": 7,
-  "stale": 11,
-  "ai": 75,
-  "trend": 136
+  "stale": 5,
+  "ai": 73,
+  "trend": 134
  },
- "cards": 8,
- "note": "预览模式：未调用 DeepSeek，卡片内容为占位。",
- "pushed": false
+ "cards": 10,
+ "note": "今日AI选题集中在B站AI整活与GitHub技能包，工具实测类最好落地。",
+ "pushed": true
 }
