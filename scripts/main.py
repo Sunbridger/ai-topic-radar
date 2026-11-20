@@ -133,6 +133,10 @@ def main(argv=None):
 
     if not args.dry_run:
         pipeline.mark_seen(DATA / "seen.json", cards, date_str)
+        (DATA / "last_cards.json").write_text(json.dumps(
+            {"date": date_str, "note": note, "cards": cards},
+            ensure_ascii=False, indent=1,
+        ), encoding="utf-8")
 
     url = f"{page_base()}/{date_str}.html" if page_base() else ""
     pushed = False
