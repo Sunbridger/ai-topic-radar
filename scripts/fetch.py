@@ -29,7 +29,7 @@ def _clean(s):
     return re.sub(r"\s+", " ", s or "").strip()
 
 
-def _item(source, title, url, heat="", snippet="", ts=None, rank=None, kind="ai"):
+def _item(source, title, url, heat="", snippet="", ts=None, rank=None, kind="ai", image=""):
     return {
         "source": source,
         "title": _clean(title),
@@ -39,6 +39,7 @@ def _item(source, title, url, heat="", snippet="", ts=None, rank=None, kind="ai"
         "ts": ts,
         "rank": rank,
         "kind": kind,
+        "image": image or "",
     }
 
 
@@ -90,8 +91,17 @@ def fetch_tophub(key):
             if desc:
                 heat = _clean(desc.get_text())
         title = _clean(a.get_text())
+        image = ""
+        for td in tds[1:]:
+            im = td.find("img")
+            if not im:
+                continue
+            src = im.get("data-src") or im.get("src") or ""
+            if src.startswith("http") and "placeholder-lazyload" not in src:
+                image = src
+            break
         if title:
-            items.append(_item(name, title, a["href"], heat, rank=int(rank_txt)))
+            items.append(_item(name, title, a["href"], heat, rank=int(rank_txt), image=image))
         if len(items) >= 30:
             break
     if not items:
@@ -138,9 +148,10 @@ def fetch_bilibili():
     for i, v in enumerate(data["data"].get("list", []), 1):
         view = (v.get("stat") or {}).get("view", 0)
         heat = f"{view / 10000:.1f}万播放" if view >= 10000 else f"{view}播放"
+        pic = (v.get("pic") or "").replace("http://", "https://")
         items.append(_item(
             "B站热门", v.get("title", ""), f"https://www.bilibili.com/video/{v.get('bvid', '')}",
-            heat, v.get("desc", ""), rank=i,
+            heat, v.get("desc", ""), rank=i, image=pic,
         ))
     return items
 
@@ -182,7 +193,10 @@ def fetch_github_trending():
         desc = _clean(desc_el.get_text()) if desc_el else ""
         star_el = art.select_one("span.float-sm-right")
         stars = _clean(star_el.get_text()) if star_el else ""
-        items.append(_item("GitHub Trending", repo, f"https://github.com/{repo}", stars, desc))
+        items.append(_item(
+            "GitHub Trending", repo, f"https://github.com/{repo}", stars, desc,
+            image=f"https://opengraph.githubassets.com/1/{repo}",
+        ))
     if not items:
         raise ValueError("GitHub Trending 解析为空")
     return items
@@ -217,9 +231,18 @@ def fetch_x():
                 # FxTwitter 偶尔把纯链接当作标题，丢弃
                 if not title or title.startswith("http") or len(title) < 6:
                     continue
+                image = ""
+                for enc in it.findall("enclosure"):
+                    if (enc.get("type") or "").startswith("image/") and enc.get("url"):
+                        image = enc.get("url")
+                        break
+                if not image:
+                    thumb = it.find("{http://search.yahoo.com/mrss/}thumbnail")
+                    if thumb is not None:
+                        image = thumb.get("url") or ""
                 got.append(_item(
                     f"X · @{handle}", title, link, "X 账号动态",
-                    ts=_rfc822(it.findtext("pubDate") or ""),
+                    ts=_rfc822(it.findtext("pubDate") or ""), image=image,
                 ))
             got.sort(key=lambda x: x["ts"] or 0, reverse=True)
             items.extend(got[:config.X_QUOTA_PER_ACCOUNT])

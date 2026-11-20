@@ -5,7 +5,9 @@
 ## 产出
 
 - **Bark 通知**：标题带条数，正文列选题标题，点击跳转全文页
-- **日报页**：`https://<owner>.github.io/ai-topic-radar/<YYYY-MM-DD>.html`，含事实、为什么火、3 个角度、2 个小红书标题、受众
+- **日报页**：`https://<owner>.github.io/ai-topic-radar/<YYYY-MM-DD>.html`，公众号风格排版，含封面图、事实、为什么火、3 个角度、2 个小红书标题、受众
+
+封面图取自各源（B站/知乎/抖音封面、GitHub OG 图、X 配图），运行时下载压缩到 `docs/img/<date>/` 并随页面发布，不依赖外链；超过 60 天的图片会自动清理。
 
 ## 数据源
 

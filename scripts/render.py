@@ -21,6 +21,7 @@ h1{font-size:24px;line-height:1.5;color:#1a1a1a;font-weight:700;margin:18px 0 6p
 .no{display:inline-block;background:#d4472a;color:#fff;font-size:12px;font-weight:600;line-height:1;padding:5px 8px;border-radius:3px;margin-right:9px;vertical-align:3px;letter-spacing:1px}
 h2{font-size:19px;line-height:1.65;color:#1a1a1a;font-weight:700;margin:0 0 8px}
 .meta-line{font-size:13px;color:#9b9b9b;margin:0 0 16px;padding-left:2px}
+.fig{display:block;width:100%;height:auto;border-radius:4px;margin:2px 0 16px;background:#f4f4f4}
 p{margin:14px 0}
 .fact{color:#3f3f3f}
 .sub{font-size:15px;font-weight:700;color:#222;margin:24px 0 10px;padding-left:9px;border-left:3px solid #d4472a;line-height:1.5}
@@ -68,6 +69,10 @@ def _card_html(i, c):
         f'<h2><span class="no">{i:02d}</span>{_esc(c["title"])}</h2>',
         meta,
     ]
+    if c.get("image_local"):
+        parts.append(
+            f'<img class="fig" src="{_esc(c["image_local"])}" alt="{_esc(c["title"])}" loading="lazy">'
+        )
     if c.get("fact"):
         parts.append(f'<p class="fact">{_esc(c["fact"])}</p>')
     if c.get("why_hot"):

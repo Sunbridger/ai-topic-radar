@@ -18,7 +18,9 @@
     "252万人围观！AI整活新玩法"
    ],
    "audience": "想用AI做有趣内容、想涨粉的普通创作者",
-   "url": "https://www.bilibili.com/video/av117626000967610/"
+   "url": "https://www.bilibili.com/video/av117626000967610/",
+   "image": "http://i2.hdslb.com/bfs/archive/c014dba1c54cfcad62c30c18dfe7b0da97e45528.jpg",
+   "image_local": "img/2026-11-20/01.jpg"
   },
   {
    "title": "赵本山《Bad Guy》AI MV爆火，象牙山蹦野迪",
@@ -36,7 +38,9 @@
     "220万人看过的AI MV怎么做"
    ],
    "audience": "会玩梗、想做短视频但不会剪辑的普通用户",
-   "url": "https://www.bilibili.com/video/av117635379437440/"
+   "url": "https://www.bilibili.com/video/av117635379437440/",
+   "image": "http://i2.hdslb.com/bfs/archive/3f8072c97751bc9fb6e151d1d52e07bffbf6a2fe.jpg",
+   "image_local": "img/2026-11-20/02.jpg"
   },
   {
    "title": "让100个游戏强行兼容MC，AI+VR版头号玩家",
@@ -54,7 +58,9 @@
     "126万人追的AI游戏实验"
    ],
    "audience": "游戏玩家、对AI+娱乐好奇的年轻用户",
-   "url": "https://www.bilibili.com/video/BV1o5sr63E9a"
+   "url": "https://www.bilibili.com/video/BV1o5sr63E9a",
+   "image": "https://i2.hdslb.com/bfs/archive/13dc2f29d60865a3922f1da0acabf82866e61ec4.jpg",
+   "image_local": "img/2026-11-20/03.jpg"
   },
   {
    "title": "Gemini 4 Neon登顶模型工程指数第一",
@@ -72,7 +78,8 @@
     "新模型第一？我拿它干了3件事"
    ],
    "audience": "正在挑AI工具、想换模型的普通用户",
-   "url": "https://git-aarvin.github.io/mei/"
+   "url": "https://git-aarvin.github.io/mei/",
+   "image": ""
   },
   {
    "title": "Claude解出两个黑洞物理开放问题",
@@ -90,7 +97,8 @@
     "AI帮科学家解题，普通人能用吗"
    ],
    "audience": "对AI能力好奇、想用AI学知识的普通用户",
-   "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "image": ""
   },
   {
    "title": "AI没抢走你的工作，而是把它变成低薪零工",
@@ -108,7 +116,8 @@
     "打工人必看：AI正在这样改工作"
    ],
    "audience": "担心被AI影响的职场人、自由职业者",
-   "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/"
+   "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+   "image": ""
   },
   {
    "title": "last30days：一个AI技能帮你跨平台调研任何话题",
@@ -126,7 +135,9 @@
     "做选题不用翻墙找资料了"
    ],
    "audience": "做内容、做调研、需要快速查资料的普通用户",
-   "url": "https://github.com/mvanhorn/last30days-skill"
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "image": "https://opengraph.githubassets.com/1/mvanhorn/last30days-skill",
+   "image_local": "img/2026-11-20/07.jpg"
   },
   {
    "title": "Claude-BugHunter：82个技能包做安全测试",
@@ -144,7 +155,9 @@
     "AI批量查漏洞，普通人该慌吗"
    ],
    "audience": "对AI安全好奇、关注技术趋势的普通用户",
-   "url": "https://github.com/elementalsouls/Claude-BugHunter"
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+   "image_local": "img/2026-11-20/08.jpg"
   },
   {
    "title": "firecrawl：让AI agent更聪明的知识基建",
@@ -162,7 +175,9 @@
     "让AI读全网，这个工具做到了"
    ],
    "audience": "想让AI处理网页资料的进阶普通用户",
-   "url": "https://github.com/firecrawl/firecrawl"
+   "url": "https://github.com/firecrawl/firecrawl",
+   "image": "https://opengraph.githubassets.com/1/firecrawl/firecrawl",
+   "image_local": "img/2026-11-20/09.jpg"
   },
   {
    "title": "diagram-design：45种图表让AI帮你画专业图",
@@ -180,7 +195,9 @@
     "做PPT的救星，271星AI工具"
    ],
    "audience": "要做汇报、PPT、内容的职场人",
-   "url": "https://github.com/cathrynlavery/diagram-design"
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "image": "https://opengraph.githubassets.com/1/cathrynlavery/diagram-design",
+   "image_local": "img/2026-11-20/10.jpg"
   }
  ]
 }

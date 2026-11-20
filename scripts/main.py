@@ -12,7 +12,7 @@
 import argparse
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -69,6 +69,71 @@ def _bark_base(endpoint):
     return urlunsplit((parts.scheme or "https", parts.netloc or "api.day.app", f"/{key}", "", ""))
 
 
+def attach_images(cards, date_str):
+    """下载封面并压缩到 docs/img/<date>/，让页面不依赖外链图片。"""
+    try:
+        from io import BytesIO
+
+        from PIL import Image
+    except Exception as exc:
+        print(f"[warn] Pillow 不可用，跳过图片：{exc}")
+        return
+    from urllib.parse import urlsplit
+
+    outdir = DOCS / "img" / date_str
+    if outdir.exists():
+        for old in outdir.glob("*.jpg"):
+            old.unlink(missing_ok=True)
+    saved = 0
+    for i, c in enumerate(cards, 1):
+        url = (c.get("image") or "").strip()
+        if not url.startswith("http"):
+            continue
+        try:
+            host = urlsplit(url).netloc
+            r = requests.get(url, headers={
+                "User-Agent": fetch.HEADERS["User-Agent"],
+                "Referer": f"https://{host}/",
+            }, timeout=25)
+            r.raise_for_status()
+            if not r.headers.get("Content-Type", "").startswith("image/"):
+                continue
+            if len(r.content) > 6 * 1024 * 1024:
+                continue
+            image = Image.open(BytesIO(r.content))
+            image = image.convert("RGB")
+            image.thumbnail((900, 900))
+            outdir.mkdir(parents=True, exist_ok=True)
+            name = f"{i:02d}.jpg"
+            image.save(outdir / name, "JPEG", quality=82, optimize=True, progressive=True)
+            c["image_local"] = f"img/{date_str}/{name}"
+            saved += 1
+        except Exception as exc:
+            print(f"[warn] 图片失败 {i} {url[:70]}：{exc}")
+            c["image_local"] = ""
+    prune_images()
+    print(f"[img] 保存 {saved} 张封面")
+
+
+def prune_images(days=60):
+    """只保留最近 60 天的图片，控制仓库体积。"""
+    root = DOCS / "img"
+    if not root.exists():
+        return
+    import shutil
+
+    cutoff = datetime.now() - timedelta(days=days)
+    for d in root.iterdir():
+        if not d.is_dir():
+            continue
+        try:
+            dt = datetime.strptime(d.name, "%Y-%m-%d")
+        except ValueError:
+            continue
+        if dt < cutoff:
+            shutil.rmtree(d, ignore_errors=True)
+
+
 def push_bark(payload):
     endpoint = os.environ.get("BARK_ENDPOINT", "").strip()
     if not endpoint:
@@ -120,6 +185,8 @@ def main(argv=None):
                 note = note or "今日没有达到质量标准的选题。"
             elif len(cards) < config.CARDS_MIN:
                 note = (note + " " if note else "") + f"今日热点较少，仅 {len(cards)} 条达到标准。"
+
+    attach_images(cards, date_str)
 
     archive = sorted(
         f.stem for f in DOCS.glob("*.html") if f.stem != "index"

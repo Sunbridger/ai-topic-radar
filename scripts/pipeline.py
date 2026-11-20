@@ -198,6 +198,7 @@ def _validate(raw, candidates):
             "audience": str(r.get("audience") or "").strip(),
             "url": url,
             "key": cand.get("key") or title_key(title),
+            "image": cand.get("image", ""),
         })
         if len(cards) >= config.CARDS_MAX:
             break
@@ -220,5 +221,6 @@ def stub_cards(candidates):
             "audience": "预览受众",
             "url": c["url"],
             "key": c.get("key", ""),
+            "image": c.get("image", ""),
         })
     return cards
