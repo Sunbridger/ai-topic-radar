@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "statuses": {
   "微博热搜": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "Hacker News": {
    "ok": true,
-   "count": 37
+   "count": 38
   },
   "GitHub Trending": {
    "ok": true,
@@ -39,19 +39,19 @@
   },
   "X / FxTwitter": {
    "ok": true,
-   "count": 6
+   "count": 9
   }
  },
  "stats": {
-  "in": 269,
-  "sensitive": 19,
-  "seen": 0,
-  "dup": 7,
-  "stale": 5,
-  "ai": 73,
-  "trend": 134
+  "in": 273,
+  "sensitive": 16,
+  "seen": 5,
+  "dup": 24,
+  "stale": 45,
+  "ai": 29,
+  "trend": 118
  },
- "cards": 10,
- "note": "今日AI选题集中在B站AI整活与GitHub技能包，工具实测类最好落地。",
+ "cards": 8,
+ "note": "今日AI热点集中在模型突破与工具落地，工具实测类更适配账号。",
  "pushed": true
 }
