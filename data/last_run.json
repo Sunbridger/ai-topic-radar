@@ -1,5 +1,5 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "statuses": {
   "微博热搜": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "Hacker News": {
    "ok": true,
-   "count": 38
+   "count": 17
   },
   "GitHub Trending": {
    "ok": true,
@@ -43,15 +43,15 @@
   }
  },
  "stats": {
-  "in": 273,
-  "sensitive": 16,
-  "seen": 5,
-  "dup": 24,
-  "stale": 45,
-  "ai": 29,
-  "trend": 118
+  "in": 252,
+  "sensitive": 11,
+  "seen": 8,
+  "dup": 33,
+  "stale": 48,
+  "ai": 13,
+  "trend": 119
  },
- "cards": 8,
- "note": "今日AI热点集中在模型突破与工具落地，工具实测类更适配账号。",
+ "cards": 10,
+ "note": "AI数学证明霸榜，工具侧看Agent开源与Cursor插件。",
  "pushed": true
 }
