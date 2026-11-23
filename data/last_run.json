@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "statuses": {
   "微博热搜": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "Hacker News": {
    "ok": true,
-   "count": 17
+   "count": 28
   },
   "GitHub Trending": {
    "ok": true,
@@ -39,19 +39,19 @@
   },
   "X / FxTwitter": {
    "ok": true,
-   "count": 9
+   "count": 12
   }
  },
  "stats": {
-  "in": 252,
+  "in": 266,
   "sensitive": 11,
-  "seen": 8,
-  "dup": 33,
-  "stale": 48,
-  "ai": 13,
-  "trend": 119
+  "seen": 11,
+  "dup": 31,
+  "stale": 49,
+  "ai": 17,
+  "trend": 121
  },
- "cards": 10,
- "note": "AI数学证明霸榜，工具侧看Agent开源与Cursor插件。",
+ "cards": 9,
+ "note": "今日AI热点密集，聚焦模型发布、限额与AI创作玩法。",
  "pushed": true
 }

@@ -1,225 +1,199 @@
 {
- "date": "2026-11-22",
- "note": "AI数学证明霸榜，工具侧看Agent开源与Cursor插件。",
+ "date": "2026-11-23",
+ "note": "今日AI热点密集，聚焦模型发布、限额与AI创作玩法。",
  "cards": [
   {
-   "title": "25万页AI黎曼猜想证明难核验，Lean与Mathlib社区确认证明正确",
-   "source": "知乎热榜",
-   "heat": "3357 万热度",
-   "kind": "trend",
-   "fact": "Lean 与 Mathlib 社区联合声明，正式确认 Alpöge 对黎曼猜想的证明正确；相关讨论提到 AI 生成的证明长达 25 万页，人工核验困难。",
-   "why_hot": "AI 攻克顶级数学难题，加上「人类还能做什么」的焦虑，数学圈和大众都在讨论。",
-   "angles": [
-    "用大白话讲清 AI 写 25 万页证明、机器核验是怎么回事，普通人只需看懂结论",
-    "盘点普通人现在能用的 AI 数学/推理工具，现场演示解一道难题",
-    "聊 AI 做科研后普通人该练什么能力：提问、核验、判断，而非计算"
-   ],
-   "xhs_titles": [
-    "AI写完25万页证明，人怎么核验",
-    "黎曼猜想被AI拿下？普通人该慌吗"
-   ],
-   "audience": "对 AI 能力好奇的普通用户、学生党",
-   "url": "https://www.zhihu.com/question/2107620110105932525",
-   "key": "57a1b563b23209e3",
-   "image": "https://picx.zhimg.com/80/v2-c330ea7484797e9fecffc4df08ed5b4b_1440w.webp?source=1def8aca",
-   "image_local": "img/2026-11-22/01.jpg"
-  },
-  {
-   "title": "菲尔兹奖得主邓煜：人类不能放弃自主思考给AI当狗",
-   "source": "知乎热榜",
-   "heat": "135 万热度",
+   "title": "孩子用AI写小说被说不是自己写",
+   "source": "微博热搜",
+   "heat": "19万",
    "kind": "ai",
-   "fact": "菲尔兹奖得主邓煜提出「人类不能放弃自主思考给 AI 当狗」的观点，引发对人与 AI 关系的讨论。",
-   "why_hot": "顶级数学家下场谈 AI 与人的关系，戳中「用 AI 会不会变懒变笨」的普遍焦虑。",
+   "fact": "微博热搜话题讨论孩子用AI写小说，被他人评价「不是自己写的」。话题聚焦AI代写与原创边界，家长与孩子如何正确使用AI写作工具成为讨论点。",
+   "why_hot": "AI代写进家庭场景，触碰「原创」与「教育」双重焦虑，家长群体共鸣强、易转发。",
    "angles": [
-    "用 AI 写方案/写作业的三种用法对比：当狗 vs 当教练，现场演示差别",
-    "给普通人的「不被 AI 养废」清单：哪些事必须自己先想一遍",
-    "把邓煜观点翻译成人话，配一张 AI 协作流程图"
+    "实测三款AI写作工具写同题作文，对比「像不像孩子写的」，给出提示词模板",
+    "教家长用AI当「批改老师」而非「代笔」：三步亲子共创流程",
+    "AI写作痕迹自查清单：5个特征判断孩子作文是否AI味太重"
    ],
    "xhs_titles": [
-    "数学家说别给AI当狗，我慌了",
-    "用AI一年，我差点不会思考了"
+    "孩子用AI写小说，算抄吗？",
+    "别让AI代写毁了孩子表达力"
    ],
-   "audience": "重度用 AI 的上班族、学生",
-   "url": "https://www.zhihu.com/question/2099876169013258150",
-   "key": "881ca1de4366ae9f",
-   "image": "https://pic1.zhimg.com/50/v2-fd8e5a2249ee8e611b9992b4d6d38aba_b.jpg",
-   "image_local": "img/2026-11-22/02.jpg"
-  },
-  {
-   "title": "陶哲轩博客热评：数学变成F1赛车，不进AI车队看不到后尾灯",
-   "source": "知乎热榜",
-   "heat": "102 万热度",
-   "kind": "ai",
-   "fact": "陶哲轩博客下出现评论，把数学研究比作 F1 赛车，称不加入 AI 车队连后尾灯都看不到。",
-   "why_hot": "陶哲轩自带流量，F1 比喻形象，AI 加速专业领域的话题易传播。",
-   "angles": [
-    "把「AI 车队」比喻搬到普通职场：不会用 AI 的人差在哪",
-    "实测 3 个 AI 工具做同一件本职工作，看效率差几倍",
-    "普通人怎么低成本「上车」：一周上手 AI 的最小行动清单"
-   ],
-   "xhs_titles": [
-    "不进AI车队，真的看不到尾灯",
-    "陶哲轩这个比喻，太扎心了"
-   ],
-   "audience": "担心被 AI 落下的职场人",
-   "url": "https://www.zhihu.com/question/2107581968296760732",
-   "key": "83dc725ef33c2e41",
-   "image": "https://pic4.zhimg.com/50/v2-bbcb555f9efecab835281b4195dd704f_b.jpg",
-   "image_local": "img/2026-11-22/03.jpg"
-  },
-  {
-   "title": "OpenAI升级反蒸馏防御，推理提取成功率从54%降至0.2%",
-   "source": "知乎热榜",
-   "heat": "84 万热度",
-   "kind": "ai",
-   "fact": "OpenAI 宣布升级反蒸馏防御，隐藏推理提取成功率从 54% 降至 0.2%。",
-   "why_hot": "数字对比强烈，AI 模型攻防话题在技术圈和关注 AI 的用户中讨论度高。",
-   "angles": [
-    "用大白话讲「蒸馏」是什么，为什么大厂要防别人抄",
-    "这件事对普通用户的影响：模型更封闭，套壳小工具可能变差",
-    "教用户怎么判断一个 AI 工具是真自研还是套壳"
-   ],
-   "xhs_titles": [
-    "OpenAI这波操作，套壳工具要凉",
-    "54%到0.2%，AI抄作业被堵死"
-   ],
-   "audience": "AI 工具重度用户、关注行业动态者",
-   "url": "https://www.zhihu.com/question/2107430398359885371",
-   "key": "1c44adaf0765c8c1",
-   "image": "https://pic1.zhimg.com/80/v2-616ac995204624d914a78e8bb6268bdc_1440w.webp?source=1def8aca",
-   "image_local": "img/2026-11-22/04.jpg"
-  },
-  {
-   "title": "CLI-Anything：让所有软件都能被AI Agent操作",
-   "source": "GitHub Trending",
-   "heat": "769 stars today",
-   "kind": "ai",
-   "fact": "港大数据智能实验室开源 CLI-Anything，主打让所有软件都变成 Agent 原生可操作，并配套 CLI-Hub。",
-   "why_hot": "GitHub 日榜第一，「让 AI 操作所有软件」是普通人也能感知的能力跃迁。",
-   "angles": [
-    "用非技术语言讲清「AI 直接操作软件」能帮普通人省哪些事",
-    "举 3 个日常场景：批量整理文件、自动填表、定时抓数据",
-    "对比手动操作和 Agent 操作的耗时，做前后对比图"
-   ],
-   "xhs_titles": [
-    "AI能直接操作软件了，打工人狂喜",
-    "769星新项目，让AI替你点鼠标"
-   ],
-   "audience": "想提效的非技术上班族",
-   "url": "https://github.com/HKUDS/CLI-Anything",
-   "key": "4d4056f270c219af",
-   "image": "https://opengraph.githubassets.com/1/HKUDS/CLI-Anything",
-   "image_local": "img/2026-11-22/05.jpg"
-  },
-  {
-   "title": "谷歌开源Stitch Skills：给AI编程代理的技能库",
-   "source": "GitHub Trending",
-   "heat": "326 stars today",
-   "kind": "ai",
-   "fact": "google-labs-code 开源 stitch-skills，是一套配合 Stitch MCP 服务器的 Agent Skills 库，遵循 Agent Skills 开放标准。",
-   "why_hot": "谷歌官方下场做 Agent 技能标准，编程代理生态受关注。",
-   "angles": [
-    "讲清 Agent Skills 是什么，为什么像给 AI 装插件",
-    "普通人视角：这类技能库未来能帮你自动做什么",
-    "用 Cursor 等工具试装一个技能，展示效果"
-   ],
-   "xhs_titles": [
-    "谷歌给AI装技能包，玩法变了",
-    "AI代理也能装插件了？实测"
-   ],
-   "audience": "用 AI 编程工具的进阶用户",
-   "url": "https://github.com/google-labs-code/stitch-skills",
-   "key": "ef7ade4a0548f0d2",
-   "image": "https://opengraph.githubassets.com/1/google-labs-code/stitch-skills",
-   "image_local": "img/2026-11-22/06.jpg"
-  },
-  {
-   "title": "Cursor官方插件仓库上线",
-   "source": "GitHub Trending",
-   "heat": "260 stars today",
-   "kind": "ai",
-   "fact": "Cursor 开源插件规范与官方插件仓库 cursor/plugins，登上 GitHub 日榜。",
-   "why_hot": "Cursor 是热门 AI 编程工具，官方插件生态意味着玩法扩展。",
-   "angles": [
-    "盘点 Cursor 插件能干什么，哪些值得先装",
-    "非程序员用 Cursor 插件做小工具的三个例子",
-    "Cursor 插件 vs 传统编辑器插件，差别在哪"
-   ],
-   "xhs_titles": [
-    "Cursor出插件了，先装这几个",
-    "不会写代码，也能玩Cursor插件"
-   ],
-   "audience": "AI 编程工具用户、轻开发者",
-   "url": "https://github.com/cursor/plugins",
-   "key": "35d9d5ceecf85838",
-   "image": "https://opengraph.githubassets.com/1/cursor/plugins",
-   "image_local": "img/2026-11-22/07.jpg"
-  },
-  {
-   "title": "ClawDOS：给DOS写一个AI编程代理",
-   "source": "Hacker News",
-   "heat": "159 分 · 51 评论",
-   "kind": "ai",
-   "fact": "Hacker News 上出现 ClawDOS 项目，为 DOS 系统做一个 AI 编程代理。",
-   "why_hot": "复古系统配 AI 代理，反差感强，HN 讨论活跃。",
-   "angles": [
-    "怀旧+AI：在老系统上跑 AI 代理是什么体验",
-    "借题讲 AI 编程代理到底能替人做哪些活",
-    "盘点 3 个普通人现在就能用的 AI 编程代理"
-   ],
-   "xhs_titles": [
-    "有人在DOS上跑AI写代码",
-    "AI代理写代码，这次玩到DOS"
-   ],
-   "audience": "技术好奇者、AI 工具尝鲜党",
-   "url": "http://ricapar.net/ClawDOS/",
-   "key": "8d4f322ec8421d62",
+   "audience": "有中小学生的家长、语文老师，家庭辅导写作场景",
+   "url": "https://s.weibo.com/weibo?q=%E5%AD%A9%E5%AD%90%E7%94%A8AI%E5%86%99%E5%B0%8F%E8%AF%B4%E8%A2%AB%E8%AF%B4%E4%B8%8D%E6%98%AF%E8%87%AA%E5%B7%B1%E5%86%99",
+   "key": "e86693287c7d8d7a",
    "image": ""
   },
   {
-   "title": "被窝里玩手机教程登上B站日榜",
-   "source": "B站日榜",
-   "heat": "628.9万",
-   "kind": "trend",
-   "fact": "B站日榜出现「被窝里玩手机教程」视频，播放量 628.9 万。",
-   "why_hot": "生活化教程类内容播放高，说明用户爱看「具体怎么做」的实用贴。",
+   "title": "DeepSeek 推出限额规则，重度免费用户主动求付费",
+   "source": "知乎热榜",
+   "heat": "160 万热度",
+   "kind": "ai",
+   "fact": "DeepSeek推出限额规则，不少重度免费用户主动求付费以保留长对话，讨论集中在免费额度、长上下文与付费意愿等现实问题。",
+   "why_hot": "国产大模型首次让用户主动求付费，关乎每个免费党日常用法，实用性强。",
    "angles": [
-    "借势做「被窝里用 AI 语音助手干完三件事」实测",
-    "睡前 10 分钟用 AI 整理明天待办的具体流程",
-    "躺着用手机指挥 AI 写周报、回消息的玩法合集"
+    "限额后怎么用最省：长对话拆分、关键上下文复用的3个技巧",
+    "实测免费额度用完后的替代方案：哪几款工具能无缝接棒",
+    "重度用户算账：付费vs白嫖，一个月到底差多少钱"
    ],
    "xhs_titles": [
-    "被窝里玩手机，我顺手用AI干活",
-    "躺床上10分钟，AI帮我干完活"
+    "DeepSeek限额了，这样用不浪费",
+    "免费党注意！DeepSeek省额度3招"
    ],
-   "audience": "睡前刷手机的懒人效率党",
-   "url": "https://www.bilibili.com/video/av117631067625416/",
-   "key": "d654935f18f18377",
-   "image": "http://i1.hdslb.com/bfs/archive/54311a127178a0a81a5464e1bc926eb08b4e906b.jpg",
-   "image_local": "img/2026-11-22/09.jpg"
+   "audience": "日常用DeepSeek写稿、做长对话的普通用户",
+   "url": "https://www.zhihu.com/question/2107183345205626254",
+   "key": "fa9fe09d2cd79813",
+   "image": "https://pic4.zhimg.com/50/v2-a62dd5b40b268d1289e033b8a8cf31d7_b.jpg",
+   "image_local": "img/2026-11-23/02.jpg"
   },
   {
-   "title": "尾随NPC真实反应视频走热",
-   "source": "B站日榜",
-   "heat": "518.2万",
-   "kind": "trend",
-   "fact": "B站日榜视频「尾随NPC的真实反应」播放 518.2 万，属游戏类热门内容。",
-   "why_hot": "游戏整活内容传播快，AI NPC 话题可自然借势。",
+   "title": "Google 发布 Gemini 4 Neon",
+   "source": "知乎热榜",
+   "heat": "118 万热度",
+   "kind": "ai",
+   "fact": "Google发布Gemini 4 Neon，知乎热榜讨论如何评价该模型，关注点集中在能力升级与实际使用体验。",
+   "why_hot": "大厂新模型发布自带流量，普通用户最关心「比之前好用在哪、值不值得换」。",
    "angles": [
-    "借游戏NPC热度，盘点能陪聊陪玩的AI角色工具",
-    "用AI生成自己的游戏NPC对话脚本，演示全过程",
-    "AI NPC和真人NPC差别在哪，实测三款AI聊天应用"
+    "Gemini 4 Neon上手实测：3个普通人最常用的场景跑一遍",
+    "和常用AI工具横评：写文案、做表格、读长文档谁更强",
+    "国内用户怎么用上：入口、账号与替代方案清单"
    ],
    "xhs_titles": [
-    "游戏NPC太真实，AI也能做到",
-    "用AI捏个NPC，陪我聊天打游戏"
+    "Gemini 4 Neon实测，值得换吗",
+    "新模型来了，普通人能用它干嘛"
    ],
-   "audience": "游戏玩家、AI 陪聊尝鲜用户",
-   "url": "https://www.bilibili.com/video/av117641469500320/",
-   "key": "1924be9f67ba3087",
-   "image": "http://i0.hdslb.com/bfs/archive/57492a779ff30c8e090f9b2ca4d38918ff21bab0.jpg",
-   "image_local": "img/2026-11-22/10.jpg"
+   "audience": "关注新模型的AI工具尝鲜党、内容创作者",
+   "url": "https://www.zhihu.com/question/2106628033834767756",
+   "key": "739fe5a16dbd9f95",
+   "image": "https://pic4.zhimg.com/v2-08e22b2a48dd7f2441a6c2576763f2af_1440w.jpg",
+   "image_local": "img/2026-11-23/03.jpg"
+  },
+  {
+   "title": "B站AI创造公开赛：点击即玩的像素射击游戏",
+   "source": "B站日榜",
+   "heat": "73.3万",
+   "kind": "ai",
+   "fact": "B站AI创造公开赛作品展示，在B站就能玩到的像素射击游戏，点击即玩，体现AI生成游戏的低门槛玩法。",
+   "why_hot": "「点击即玩」降低门槛，AI做游戏从概念变成可玩作品，激发普通人动手欲。",
+   "angles": [
+    "零代码用AI做小游戏：从提示词到可玩demo的完整步骤",
+    "盘点3个AI做游戏工具，哪个最适合新手出成品",
+    "跟着公开赛作品拆解：一个像素射击游戏的AI生成流程"
+   ],
+   "xhs_titles": [
+    "不会代码，我用AI做了个小游戏",
+    "AI做游戏，点击就能玩！"
+   ],
+   "audience": "想玩AI创作、无编程基础的兴趣用户",
+   "url": "https://www.bilibili.com/video/av117648683702787/",
+   "key": "68b865204146affa",
+   "image": "http://i0.hdslb.com/bfs/archive/1c375923573e166e4072c3282175ddc8ae67d535.jpg",
+   "image_local": "img/2026-11-23/04.jpg"
+  },
+  {
+   "title": "AI MV大赛：用AI给老剧做音乐视频",
+   "source": "B站热门",
+   "heat": "105.1万播放",
+   "kind": "ai",
+   "fact": "B站AI MV大赛作品《520AM》司凤版，作者称趁热度用MJ做视频，内容皆为自制，展示AI生成MV的玩法。",
+   "why_hot": "AI MV门槛低、成品感强，怀旧IP加AI生成，视觉冲击带来高播放。",
+   "angles": [
+    "用AI做MV全流程：选曲、生成画面、剪辑拼接三步走",
+    "新手也能出片：3个AI视频工具对比与提示词模板",
+    "怀旧剧二创玩法：如何用AI把喜欢的角色做成MV"
+   ],
+   "xhs_titles": [
+    "用AI做了支MV，朋友以为我外包",
+    "AI MV保姆级教程，0基础出片"
+   ],
+   "audience": "爱二创、想做视频的普通用户与剪辑新手",
+   "url": "https://www.bilibili.com/video/BV1vQybzKEhr",
+   "key": "d62e5ad63da2ddf8",
+   "image": "https://i0.hdslb.com/bfs/archive/229946638fa27153ee16c7ecd962ef9ca9ea1ee4.jpg",
+   "image_local": "img/2026-11-23/05.jpg"
+  },
+  {
+   "title": "本地AI入门指南：Inkling、Qwen与Unsloth",
+   "source": "Hacker News",
+   "heat": "279 分 · 121 评论",
+   "kind": "ai",
+   "fact": "Hacker News上一篇面向初学者的本地AI指南，介绍用Inkling、Qwen和Unsloth在本机跑模型，讨论热度较高。",
+   "why_hot": "隐私与免费需求推动本地AI热，普通用户也想「不花钱、不上传」用模型。",
+   "angles": [
+    "本地AI到底适合谁：3类人值得折腾，3类人别碰",
+    "手把手：用Qwen在本机跑起来的最短路径",
+    "本地AI vs 云端工具：成本、隐私、效果一张表对比"
+   ],
+   "xhs_titles": [
+    "不花钱不联网，本地AI怎么玩",
+    "本地跑AI模型，新手也能上手"
+   ],
+   "audience": "注重隐私、想省订阅费的进阶普通用户",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "key": "46d01b304eb8a6c1",
+   "image": ""
+  },
+  {
+   "title": "小游戏：体验当一次LLM的子代理",
+   "source": "Hacker News",
+   "heat": "279 分 · 65 评论",
+   "kind": "ai",
+   "fact": "Hacker News的Show HN项目，作者做了一个游戏，玩家扮演LLM的子代理（subagent）执行任务，引发讨论。",
+   "why_hot": "把AI Agent工作方式做成游戏，直观又有梗，适合科普AI如何「派活」。",
+   "angles": [
+    "玩这个游戏，5分钟搞懂AI Agent怎么分工",
+    "从游戏看现实：AI代理帮普通人干活的3个真实用法",
+    "用AI代理做日程和资料整理，实测能省多少时间"
+   ],
+   "xhs_titles": [
+    "玩了个游戏，秒懂AI Agent",
+    "当AI的打工仔是什么体验"
+   ],
+   "audience": "对AI Agent好奇、想了解提效玩法的普通用户",
+   "url": "https://github.com/gulivan/worker755",
+   "key": "0fcb73fc3bb076c6",
+   "image": ""
+  },
+  {
+   "title": "AI能耗争议：AI正在成为气候灾难？",
+   "source": "Hacker News",
+   "heat": "109 分 · 47 评论",
+   "kind": "ai",
+   "fact": "Hacker News讨论文章称AI正成为气候灾难，关注数据中心能耗与AI扩张带来的环境代价，评论热度较高。",
+   "why_hot": "AI越火，能耗争议越大，普通人既用AI又关心环保，话题有冲突感。",
+   "angles": [
+    "普通人用AI到底耗多少电：一次对话vs一次搜索的直观对比",
+    "想环保又想用AI：5个降低使用成本的小习惯",
+    "AI能耗争议两面看：效率提升与环境代价怎么权衡"
+   ],
+   "xhs_titles": [
+    "你每问一次AI，耗多少电？",
+    "用AI不环保？我算了笔账"
+   ],
+   "audience": "关注AI社会影响与环保的普通用户",
+   "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+   "key": "c4c9e86e9f482471",
+   "image": ""
+  },
+  {
+   "title": "AI供应链安全：Canary Token发现了什么",
+   "source": "Hacker News",
+   "heat": "102 分 · 22 评论",
+   "kind": "ai",
+   "fact": "Hacker News文章讨论AI供应链安全，介绍用Canary Token检测AI供应链风险的方法与发现，引发技术圈关注。",
+   "why_hot": "AI工具接入越多，数据与账号风险越大，安全话题与普通用户切身相关。",
+   "angles": [
+    "普通用户用AI工具前必查的3个安全项",
+    "把敏感信息喂给AI的风险：3个替代做法",
+    "AI插件与第三方工具怎么选：看这4个信号"
+   ],
+   "xhs_titles": [
+    "用AI工具前，先看这3点",
+    "别把隐私喂给AI，3招避险"
+   ],
+   "audience": "常用AI插件、第三方AI工具的普通用户",
+   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "key": "38d01552b0fd21f4",
+   "image": ""
   }
  ]
 }
