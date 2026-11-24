@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "statuses": {
   "微博热搜": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "Hacker News": {
    "ok": true,
-   "count": 28
+   "count": 25
   },
   "GitHub Trending": {
    "ok": true,
@@ -39,19 +39,19 @@
   },
   "X / FxTwitter": {
    "ok": true,
-   "count": 12
+   "count": 15
   }
  },
  "stats": {
   "in": 266,
-  "sensitive": 11,
-  "seen": 11,
-  "dup": 31,
-  "stale": 49,
-  "ai": 17,
-  "trend": 121
+  "sensitive": 2,
+  "seen": 12,
+  "dup": 29,
+  "stale": 7,
+  "ai": 66,
+  "trend": 126
  },
- "cards": 9,
- "note": "今日AI热点密集，聚焦模型发布、限额与AI创作玩法。",
+ "cards": 7,
+ "note": "今天英伟达相关话题虽多，但离普通人较远；真正适合账号的是模型发布、Canva MCP 和 AI 写作玩法。",
  "pushed": true
 }

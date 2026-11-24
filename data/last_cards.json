@@ -1,199 +1,157 @@
 {
- "date": "2026-11-23",
- "note": "今日AI热点密集，聚焦模型发布、限额与AI创作玩法。",
+ "date": "2026-11-24",
+ "note": "今天英伟达相关话题虽多，但离普通人较远；真正适合账号的是模型发布、Canva MCP 和 AI 写作玩法。",
  "cards": [
   {
-   "title": "孩子用AI写小说被说不是自己写",
-   "source": "微博热搜",
-   "heat": "19万",
+   "title": "GLM-5.4 发布：首个 loop transformer 冲通用编程",
+   "source": "Hacker News",
+   "heat": "1098 分 · 359 评论",
    "kind": "ai",
-   "fact": "微博热搜话题讨论孩子用AI写小说，被他人评价「不是自己写的」。话题聚焦AI代写与原创边界，家长与孩子如何正确使用AI写作工具成为讨论点。",
-   "why_hot": "AI代写进家庭场景，触碰「原创」与「教育」双重焦虑，家长群体共鸣强、易转发。",
+   "fact": "智谱在 Hacker News 发布 GLM-5.4，官方称这是迈向通用编程的首个 loop transformer，讨论区已有 359 条评论。",
+   "why_hot": "新模型发布且直指编程能力，开发者社区讨论量大，普通用户也关心写代码工具是否升级。",
    "angles": [
-    "实测三款AI写作工具写同题作文，对比「像不像孩子写的」，给出提示词模板",
-    "教家长用AI当「批改老师」而非「代笔」：三步亲子共创流程",
-    "AI写作痕迹自查清单：5个特征判断孩子作文是否AI味太重"
+    "实测 GLM-5.4 写小工具：用同一段提示词对比上一代和其他国产模型",
+    "把 GLM-5.4 接进日常写脚本、改表格公式的流程，展示普通人能用的场景",
+    "loop transformer 是什么：用生活化比喻讲清它为什么可能更会写代码"
    ],
    "xhs_titles": [
-    "孩子用AI写小说，算抄吗？",
-    "别让AI代写毁了孩子表达力"
+    "GLM-5.4来了，写代码真的变强了吗",
+    "国产新模型发布，普通人能用来干嘛"
    ],
-   "audience": "有中小学生的家长、语文老师，家庭辅导写作场景",
-   "url": "https://s.weibo.com/weibo?q=%E5%AD%A9%E5%AD%90%E7%94%A8AI%E5%86%99%E5%B0%8F%E8%AF%B4%E8%A2%AB%E8%AF%B4%E4%B8%8D%E6%98%AF%E8%87%AA%E5%B7%B1%E5%86%99",
-   "key": "e86693287c7d8d7a",
+   "audience": "想用 AI 写代码或做自动化的普通办公用户",
+   "url": "https://z.ai/blog/glm-5.4",
+   "key": "1cd0ca6d393535ec",
    "image": ""
   },
   {
-   "title": "DeepSeek 推出限额规则，重度免费用户主动求付费",
-   "source": "知乎热榜",
-   "heat": "160 万热度",
+   "title": "Canva 上线 MCP，设计引擎向所有 agent 开放",
+   "source": "X · @_akhaliq",
+   "heat": "X 账号动态",
    "kind": "ai",
-   "fact": "DeepSeek推出限额规则，不少重度免费用户主动求付费以保留长对话，讨论集中在免费额度、长上下文与付费意愿等现实问题。",
-   "why_hot": "国产大模型首次让用户主动求付费，关乎每个免费党日常用法，实用性强。",
+   "fact": "Canva 推出全新的 Canva MCP，把设计引擎开放给任何 agent 或开发者，方便在 AI 工作流里直接调用 Canva 做设计。",
+   "why_hot": "Canva 是普通人最常用的设计工具，接入 AI agent 意味着做图流程可能被彻底改写。",
    "angles": [
-    "限额后怎么用最省：长对话拆分、关键上下文复用的3个技巧",
-    "实测免费额度用完后的替代方案：哪几款工具能无缝接棒",
-    "重度用户算账：付费vs白嫖，一个月到底差多少钱"
+    "Canva MCP 是什么：用一张图讲清它和手动做图的区别",
+    "演示让 AI 助手直接调用 Canva 生成海报、封面的完整流程",
+    "盘点哪些日常设计任务可以交给 agent，哪些还得自己动手"
    ],
    "xhs_titles": [
-    "DeepSeek限额了，这样用不浪费",
-    "免费党注意！DeepSeek省额度3招"
+    "Canva接入AI了，做图方式要变了",
+    "不会设计也能出图？Canva新玩法"
    ],
-   "audience": "日常用DeepSeek写稿、做长对话的普通用户",
-   "url": "https://www.zhihu.com/question/2107183345205626254",
-   "key": "fa9fe09d2cd79813",
-   "image": "https://pic4.zhimg.com/50/v2-a62dd5b40b268d1289e033b8a8cf31d7_b.jpg",
-   "image_local": "img/2026-11-23/02.jpg"
+   "audience": "做小红书封面、海报的非设计岗用户",
+   "url": "https://x.com/canva/status/2124926205313081394",
+   "key": "688940f3346809d0",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2124923758079287296/img/9JaOw2vMOEYyN8lv.jpg",
+   "image_local": "img/2026-11-24/02.jpg"
   },
   {
-   "title": "Google 发布 Gemini 4 Neon",
-   "source": "知乎热榜",
-   "heat": "118 万热度",
+   "title": "GPT-6 Cyber 一次跑出 948 个 Linux 内核漏洞",
+   "source": "X · @OpenAI",
+   "heat": "X 账号动态",
    "kind": "ai",
-   "fact": "Google发布Gemini 4 Neon，知乎热榜讨论如何评价该模型，关注点集中在能力升级与实际使用体验。",
-   "why_hot": "大厂新模型发布自带流量，普通用户最关心「比之前好用在哪、值不值得换」。",
+   "fact": "OpenAI 称 GPT-6 Cyber 在一次运行中帮助验证了 948 个可获取本地 root 权限的 Linux 内核漏洞，并生成补丁供审查。",
+   "why_hot": "数字足够震撼，且直接体现 AI 在安全领域的实战能力，容易引发普通人对 AI 能力的讨论。",
    "angles": [
-    "Gemini 4 Neon上手实测：3个普通人最常用的场景跑一遍",
-    "和常用AI工具横评：写文案、做表格、读长文档谁更强",
-    "国内用户怎么用上：入口、账号与替代方案清单"
+    "用大白话解释这 948 个漏洞意味着什么，普通人该不该担心",
+    "AI 找漏洞和修漏洞的流程拆解，对比人工安全测试的差距",
+    "从这件事看 AI 在代码审查上的用法，普通人写代码能怎么借力"
    ],
    "xhs_titles": [
-    "Gemini 4 Neon实测，值得换吗",
-    "新模型来了，普通人能用它干嘛"
+    "AI一次找出948个漏洞，什么水平",
+    "GPT-6 Cyber干了件大事"
    ],
-   "audience": "关注新模型的AI工具尝鲜党、内容创作者",
-   "url": "https://www.zhihu.com/question/2106628033834767756",
-   "key": "739fe5a16dbd9f95",
-   "image": "https://pic4.zhimg.com/v2-08e22b2a48dd7f2441a6c2576763f2af_1440w.jpg",
-   "image_local": "img/2026-11-23/03.jpg"
+   "audience": "关注 AI 能力边界的技术爱好者与普通用户",
+   "url": "https://x.com/OpenAI/status/2125007927098699827",
+   "key": "765aaf4899ba64ab",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg",
+   "image_local": "img/2026-11-24/03.jpg"
   },
   {
-   "title": "B站AI创造公开赛：点击即玩的像素射击游戏",
-   "source": "B站日榜",
-   "heat": "73.3万",
+   "title": "Qwen3.8-27B 被压进 10GB 文件，接近 BF16 质量",
+   "source": "Hacker News",
+   "heat": "151 分 · 30 评论",
    "kind": "ai",
-   "fact": "B站AI创造公开赛作品展示，在B站就能玩到的像素射击游戏，点击即玩，体现AI生成游戏的低门槛玩法。",
-   "why_hot": "「点击即玩」降低门槛，AI做游戏从概念变成可玩作品，激发普通人动手欲。",
+   "fact": "NariQ 项目对 Qwen3.8-27B 做 3bit 及以下量化，在 agent 任务、数学、多语言推理和图像理解上保持接近 BF16 的质量，文件仅 10GB。",
+   "why_hot": "大模型塞进小文件意味着本地跑模型门槛降低，硬件党和小设备用户关注度高。",
    "angles": [
-    "零代码用AI做小游戏：从提示词到可玩demo的完整步骤",
-    "盘点3个AI做游戏工具，哪个最适合新手出成品",
-    "跟着公开赛作品拆解：一个像素射击游戏的AI生成流程"
+    "10GB 能跑 27B 模型，普通笔记本够不够用：实测配置清单",
+    "量化模型怎么选：3bit 和原版差距到底有多大，用几个任务对比",
+    "本地跑模型的入门路径：从下载到跑通的第一步怎么走"
    ],
    "xhs_titles": [
-    "不会代码，我用AI做了个小游戏",
-    "AI做游戏，点击就能玩！"
+    "27B模型压到10GB，笔记本能跑吗",
+    "本地跑大模型，门槛又降了"
    ],
-   "audience": "想玩AI创作、无编程基础的兴趣用户",
-   "url": "https://www.bilibili.com/video/av117648683702787/",
-   "key": "68b865204146affa",
-   "image": "http://i0.hdslb.com/bfs/archive/1c375923573e166e4072c3282175ddc8ae67d535.jpg",
-   "image_local": "img/2026-11-23/04.jpg"
+   "audience": "想在自己电脑上本地跑模型的普通用户",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "key": "065daf94636e9358",
+   "image": ""
   },
   {
-   "title": "AI MV大赛：用AI给老剧做音乐视频",
+   "title": "AI 写 AI 批 AI 改：一条龙工作流视频火了",
    "source": "B站热门",
-   "heat": "105.1万播放",
+   "heat": "195.4万播放",
    "kind": "ai",
-   "fact": "B站AI MV大赛作品《520AM》司凤版，作者称趁热度用MJ做视频，内容皆为自制，展示AI生成MV的玩法。",
-   "why_hot": "AI MV门槛低、成品感强，怀旧IP加AI生成，视觉冲击带来高播放。",
+   "fact": "B站一条标题为「ai写 ai批 ai改」的视频播放 195.4 万，内容围绕让 AI 分别完成写作、批改和修改的循环流程。",
+   "why_hot": "把 AI 当写作流水线的玩法直观好懂，播放量证明普通用户对这类提效套路兴趣大。",
    "angles": [
-    "用AI做MV全流程：选曲、生成画面、剪辑拼接三步走",
-    "新手也能出片：3个AI视频工具对比与提示词模板",
-    "怀旧剧二创玩法：如何用AI把喜欢的角色做成MV"
+    "复刻视频里的三段式流程：AI 初稿、AI 挑错、AI 改稿的提示词怎么写",
+    "这个循环适合哪些场景：写文案、改简历、写周报分别怎么调",
+    "实测连跑三轮后质量是变好还是跑偏，给出避坑建议"
    ],
    "xhs_titles": [
-    "用AI做了支MV，朋友以为我外包",
-    "AI MV保姆级教程，0基础出片"
+    "AI写AI批AI改，这流程真能用",
+    "195万播放的AI写作法，我试了"
    ],
-   "audience": "爱二创、想做视频的普通用户与剪辑新手",
-   "url": "https://www.bilibili.com/video/BV1vQybzKEhr",
-   "key": "d62e5ad63da2ddf8",
-   "image": "https://i0.hdslb.com/bfs/archive/229946638fa27153ee16c7ecd962ef9ca9ea1ee4.jpg",
-   "image_local": "img/2026-11-23/05.jpg"
+   "audience": "用 AI 写文案、周报、简历的普通上班族",
+   "url": "https://www.bilibili.com/video/BV1M5yVzjEDL",
+   "key": "23a37c51d8875cf7",
+   "image": "https://i2.hdslb.com/bfs/archive/f8732e05c457f4e9404b176038520462ee858fe9.jpg",
+   "image_local": "img/2026-11-24/05.jpg"
   },
   {
-   "title": "本地AI入门指南：Inkling、Qwen与Unsloth",
-   "source": "Hacker News",
-   "heat": "279 分 · 121 评论",
+   "title": "黄奕用 AI 视频还原被家暴雪藏场景",
+   "source": "微博热搜",
+   "heat": "34万",
    "kind": "ai",
-   "fact": "Hacker News上一篇面向初学者的本地AI指南，介绍用Inkling、Qwen和Unsloth在本机跑模型，讨论热度较高。",
-   "why_hot": "隐私与免费需求推动本地AI热，普通用户也想「不花钱、不上传」用模型。",
+   "fact": "微博热搜显示黄奕用 AI 视频还原被家暴雪藏的场景，话题登上热搜，热度 34 万。",
+   "why_hot": "明星加 AI 视频的组合自带传播力，也让普通人第一次直观看到 AI 还原场景的能力。",
    "angles": [
-    "本地AI到底适合谁：3类人值得折腾，3类人别碰",
-    "手把手：用Qwen在本机跑起来的最短路径",
-    "本地AI vs 云端工具：成本、隐私、效果一张表对比"
+    "只讲工具：这类 AI 视频大概用到哪些生成与还原能力，普通人能上手的有哪些",
+    "AI 视频做个人纪念片、老照片动起来的玩法教程",
+    "用 AI 还原场景的边界：哪些内容适合做、哪些要谨慎"
    ],
    "xhs_titles": [
-    "不花钱不联网，本地AI怎么玩",
-    "本地跑AI模型，新手也能上手"
+    "黄奕用AI还原往事，这技术不神秘",
+    "AI视频还能这么用，普通人也能做"
    ],
-   "audience": "注重隐私、想省订阅费的进阶普通用户",
-   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "key": "46d01b304eb8a6c1",
+   "audience": "对 AI 视频感兴趣、想尝试生成内容的普通用户",
+   "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E5%A5%95AI%E8%A7%86%E9%A2%91%E8%BF%98%E5%8E%9F%E8%A2%AB%E5%AE%B6%E6%9A%B4%E9%9B%AA%E8%97%8F%E5%9C%BA%E6%99%AF",
+   "key": "a5588932ddbea538",
    "image": ""
   },
   {
-   "title": "小游戏：体验当一次LLM的子代理",
-   "source": "Hacker News",
-   "heat": "279 分 · 65 评论",
+   "title": "抖音热榜：买了机器人想退货",
+   "source": "抖音热榜",
+   "heat": "傅永琪",
    "kind": "ai",
-   "fact": "Hacker News的Show HN项目，作者做了一个游戏，玩家扮演LLM的子代理（subagent）执行任务，引发讨论。",
-   "why_hot": "把AI Agent工作方式做成游戏，直观又有梗，适合科普AI如何「派活」。",
+   "fact": "抖音热榜出现一条标题为「我想退货了！」的视频，带机器人和人工智能标签，内容是用户对机器人产品的吐槽。",
+   "why_hot": "AI 硬件翻车吐槽天然有共鸣，普通人对家用机器人期待高、失望也直接。",
    "angles": [
-    "玩这个游戏，5分钟搞懂AI Agent怎么分工",
-    "从游戏看现实：AI代理帮普通人干活的3个真实用法",
-    "用AI代理做日程和资料整理，实测能省多少时间"
+    "盘点家用机器人常见翻车点：哪些功能宣传和实际差距大",
+    "买 AI 硬件前的避坑清单：看参数不如看这几个使用场景",
+    "把吐槽变成选题：哪些 AI 硬件是真有用，哪些是尝鲜税"
    ],
    "xhs_titles": [
-    "玩了个游戏，秒懂AI Agent",
-    "当AI的打工仔是什么体验"
+    "买了机器人想退货，问题出在哪",
+    "AI硬件避坑，这几类先别买"
    ],
-   "audience": "对AI Agent好奇、想了解提效玩法的普通用户",
-   "url": "https://github.com/gulivan/worker755",
-   "key": "0fcb73fc3bb076c6",
-   "image": ""
-  },
-  {
-   "title": "AI能耗争议：AI正在成为气候灾难？",
-   "source": "Hacker News",
-   "heat": "109 分 · 47 评论",
-   "kind": "ai",
-   "fact": "Hacker News讨论文章称AI正成为气候灾难，关注数据中心能耗与AI扩张带来的环境代价，评论热度较高。",
-   "why_hot": "AI越火，能耗争议越大，普通人既用AI又关心环保，话题有冲突感。",
-   "angles": [
-    "普通人用AI到底耗多少电：一次对话vs一次搜索的直观对比",
-    "想环保又想用AI：5个降低使用成本的小习惯",
-    "AI能耗争议两面看：效率提升与环境代价怎么权衡"
-   ],
-   "xhs_titles": [
-    "你每问一次AI，耗多少电？",
-    "用AI不环保？我算了笔账"
-   ],
-   "audience": "关注AI社会影响与环保的普通用户",
-   "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
-   "key": "c4c9e86e9f482471",
-   "image": ""
-  },
-  {
-   "title": "AI供应链安全：Canary Token发现了什么",
-   "source": "Hacker News",
-   "heat": "102 分 · 22 评论",
-   "kind": "ai",
-   "fact": "Hacker News文章讨论AI供应链安全，介绍用Canary Token检测AI供应链风险的方法与发现，引发技术圈关注。",
-   "why_hot": "AI工具接入越多，数据与账号风险越大，安全话题与普通用户切身相关。",
-   "angles": [
-    "普通用户用AI工具前必查的3个安全项",
-    "把敏感信息喂给AI的风险：3个替代做法",
-    "AI插件与第三方工具怎么选：看这4个信号"
-   ],
-   "xhs_titles": [
-    "用AI工具前，先看这3点",
-    "别把隐私喂给AI，3招避险"
-   ],
-   "audience": "常用AI插件、第三方AI工具的普通用户",
-   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-   "key": "38d01552b0fd21f4",
-   "image": ""
+   "audience": "想入手 AI 硬件、担心踩坑的普通消费者",
+   "url": "https://www.douyin.com/video/7710959736392289545",
+   "key": "f00e34f244d1e729",
+   "image": "https://p26-sign.douyinpic.com/tos-cn-i-dy/83f2fb58e18c4eecbc819f2840efb0c9~tplv-dy-resize-walign-adapt-aq:540:q75.jpeg?lk3s=138a59ce&x-expires=1796706000&x-signature=regLVh%2BwfU2M0ELeRKuzmATgBOA%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=false&sc=cover&biz_tag=aweme_video&l=20261124134226E4AACB87682A2DA710CF",
+   "image_local": "img/2026-11-24/07.jpg"
   }
  ]
 }
