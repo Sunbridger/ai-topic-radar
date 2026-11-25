@@ -1,157 +1,219 @@
 {
- "date": "2026-11-24",
- "note": "今天英伟达相关话题虽多，但离普通人较远；真正适合账号的是模型发布、Canva MCP 和 AI 写作玩法。",
+ "date": "2026-11-25",
+ "note": "AI 短剧与国产工具实测最贴合账号，其余偏行业与科研，谨慎取用。",
  "cards": [
   {
-   "title": "GLM-5.4 发布：首个 loop transformer 冲通用编程",
-   "source": "Hacker News",
-   "heat": "1098 分 · 359 评论",
+   "title": "AI短剧《丑狐》爆火，普通人能不能自己做一部？",
+   "source": "知乎热榜",
+   "heat": "188 万热度",
    "kind": "ai",
-   "fact": "智谱在 Hacker News 发布 GLM-5.4，官方称这是迈向通用编程的首个 loop transformer，讨论区已有 359 条评论。",
-   "why_hot": "新模型发布且直指编程能力，开发者社区讨论量大，普通用户也关心写代码工具是否升级。",
+   "fact": "AI 短剧《丑狐》爆火后引发大量讨论，知乎热榜在讨论它能戳中观众的核心原因。",
+   "why_hot": "AI 生成内容第一次以“剧”的形态被大众当成作品讨论，观众好奇它凭什么好看、是不是人做的。",
    "angles": [
-    "实测 GLM-5.4 写小工具：用同一段提示词对比上一代和其他国产模型",
-    "把 GLM-5.4 接进日常写脚本、改表格公式的流程，展示普通人能用的场景",
-    "loop transformer 是什么：用生活化比喻讲清它为什么可能更会写代码"
+    "拆解《丑狐》的镜头与叙事套路，总结 3 个可复用的 AI 短剧公式",
+    "实测一套零基础 AI 短剧工作流：剧本→分镜→图生视频→配音，列出各环节工具",
+    "对比 AI 短剧与真人短剧的“破绽点”，教读者怎么把 AI 味藏起来"
    ],
    "xhs_titles": [
-    "GLM-5.4来了，写代码真的变强了吗",
-    "国产新模型发布，普通人能用来干嘛"
+    "AI短剧《丑狐》爆火，我拆了它的套路",
+    "普通人做AI短剧，照着这3步就行"
    ],
-   "audience": "想用 AI 写代码或做自动化的普通办公用户",
-   "url": "https://z.ai/blog/glm-5.4",
-   "key": "1cd0ca6d393535ec",
-   "image": ""
+   "audience": "想尝试 AI 视频创作的内容新手、短视频副业人群",
+   "url": "https://www.zhihu.com/question/2108451365806776772",
+   "key": "ec12bb64fe3a69e4",
+   "image": "https://pic1.zhimg.com/50/v2-49968c84b0bcd6542ea305a0f2cedca8_b.jpg",
+   "image_local": "img/2026-11-25/01.jpg"
   },
   {
-   "title": "Canva 上线 MCP，设计引擎向所有 agent 开放",
-   "source": "X · @_akhaliq",
-   "heat": "X 账号动态",
+   "title": "Deepseek Harness 到底好不好用？真实体验向",
+   "source": "知乎热榜",
+   "heat": "102 万热度",
    "kind": "ai",
-   "fact": "Canva 推出全新的 Canva MCP，把设计引擎开放给任何 agent 或开发者，方便在 AI 工作流里直接调用 Canva 做设计。",
-   "why_hot": "Canva 是普通人最常用的设计工具，接入 AI agent 意味着做图流程可能被彻底改写。",
+   "fact": "知乎热榜出现“大家都用 Deepseek Harness 了嘛，感受如何？”的讨论，用户集中交流使用感受。",
+   "why_hot": "国产模型的新用法在中文社区自发扩散，普通用户想知道值不值得上手、能替自己干什么活。",
    "angles": [
-    "Canva MCP 是什么：用一张图讲清它和手动做图的区别",
-    "演示让 AI 助手直接调用 Canva 生成海报、封面的完整流程",
-    "盘点哪些日常设计任务可以交给 agent，哪些还得自己动手"
+    "用 3 个日常任务（写周报、整理资料、做表格）实测 Harness 表现",
+    "新手 5 分钟上手步骤 + 常见踩坑清单",
+    "和日常用的对话式 AI 对比：什么场景该用它、什么场景别用"
    ],
    "xhs_titles": [
-    "Canva接入AI了，做图方式要变了",
-    "不会设计也能出图？Canva新玩法"
+    "Deepseek Harness实测，值不值得用",
+    "5分钟上手Deepseek Harness，亲测有效"
    ],
-   "audience": "做小红书封面、海报的非设计岗用户",
-   "url": "https://x.com/canva/status/2124926205313081394",
-   "key": "688940f3346809d0",
-   "image": "https://pbs.twimg.com/amplify_video_thumb/2124923758079287296/img/9JaOw2vMOEYyN8lv.jpg",
-   "image_local": "img/2026-11-24/02.jpg"
+   "audience": "想用国产 AI 提效的上班族、学生党",
+   "url": "https://www.zhihu.com/question/2071607223839731944",
+   "key": "4189e8d656a60c2e",
+   "image": "https://pica.zhimg.com/50/v2-02a3fa4e22fd27048a674a93a8d5eff6_b.jpg",
+   "image_local": "img/2026-11-25/02.jpg"
   },
   {
-   "title": "GPT-6 Cyber 一次跑出 948 个 Linux 内核漏洞",
-   "source": "X · @OpenAI",
-   "heat": "X 账号动态",
-   "kind": "ai",
-   "fact": "OpenAI 称 GPT-6 Cyber 在一次运行中帮助验证了 948 个可获取本地 root 权限的 Linux 内核漏洞，并生成补丁供审查。",
-   "why_hot": "数字足够震撼，且直接体现 AI 在安全领域的实战能力，容易引发普通人对 AI 能力的讨论。",
-   "angles": [
-    "用大白话解释这 948 个漏洞意味着什么，普通人该不该担心",
-    "AI 找漏洞和修漏洞的流程拆解，对比人工安全测试的差距",
-    "从这件事看 AI 在代码审查上的用法，普通人写代码能怎么借力"
-   ],
-   "xhs_titles": [
-    "AI一次找出948个漏洞，什么水平",
-    "GPT-6 Cyber干了件大事"
-   ],
-   "audience": "关注 AI 能力边界的技术爱好者与普通用户",
-   "url": "https://x.com/OpenAI/status/2125007927098699827",
-   "key": "765aaf4899ba64ab",
-   "image": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg",
-   "image_local": "img/2026-11-24/03.jpg"
-  },
-  {
-   "title": "Qwen3.8-27B 被压进 10GB 文件，接近 BF16 质量",
-   "source": "Hacker News",
-   "heat": "151 分 · 30 评论",
-   "kind": "ai",
-   "fact": "NariQ 项目对 Qwen3.8-27B 做 3bit 及以下量化，在 agent 任务、数学、多语言推理和图像理解上保持接近 BF16 的质量，文件仅 10GB。",
-   "why_hot": "大模型塞进小文件意味着本地跑模型门槛降低，硬件党和小设备用户关注度高。",
-   "angles": [
-    "10GB 能跑 27B 模型，普通笔记本够不够用：实测配置清单",
-    "量化模型怎么选：3bit 和原版差距到底有多大，用几个任务对比",
-    "本地跑模型的入门路径：从下载到跑通的第一步怎么走"
-   ],
-   "xhs_titles": [
-    "27B模型压到10GB，笔记本能跑吗",
-    "本地跑大模型，门槛又降了"
-   ],
-   "audience": "想在自己电脑上本地跑模型的普通用户",
-   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
-   "key": "065daf94636e9358",
-   "image": ""
-  },
-  {
-   "title": "AI 写 AI 批 AI 改：一条龙工作流视频火了",
-   "source": "B站热门",
-   "heat": "195.4万播放",
-   "kind": "ai",
-   "fact": "B站一条标题为「ai写 ai批 ai改」的视频播放 195.4 万，内容围绕让 AI 分别完成写作、批改和修改的循环流程。",
-   "why_hot": "把 AI 当写作流水线的玩法直观好懂，播放量证明普通用户对这类提效套路兴趣大。",
-   "angles": [
-    "复刻视频里的三段式流程：AI 初稿、AI 挑错、AI 改稿的提示词怎么写",
-    "这个循环适合哪些场景：写文案、改简历、写周报分别怎么调",
-    "实测连跑三轮后质量是变好还是跑偏，给出避坑建议"
-   ],
-   "xhs_titles": [
-    "AI写AI批AI改，这流程真能用",
-    "195万播放的AI写作法，我试了"
-   ],
-   "audience": "用 AI 写文案、周报、简历的普通上班族",
-   "url": "https://www.bilibili.com/video/BV1M5yVzjEDL",
-   "key": "23a37c51d8875cf7",
-   "image": "https://i2.hdslb.com/bfs/archive/f8732e05c457f4e9404b176038520462ee858fe9.jpg",
-   "image_local": "img/2026-11-24/05.jpg"
-  },
-  {
-   "title": "黄奕用 AI 视频还原被家暴雪藏场景",
+   "title": "马斯克说上海跳舞视频不是AI，普通人怎么分辨真假视频",
    "source": "微博热搜",
-   "heat": "34万",
+   "heat": "54万",
    "kind": "ai",
-   "fact": "微博热搜显示黄奕用 AI 视频还原被家暴雪藏的场景，话题登上热搜，热度 34 万。",
-   "why_hot": "明星加 AI 视频的组合自带传播力，也让普通人第一次直观看到 AI 还原场景的能力。",
+   "fact": "马斯克就“上海跳舞视频”表态称其不是 AI 生成，该话题登上微博热搜。",
+   "why_hot": "名人下场给一段视频“验真”，把 AI 造假辨识度问题推到大众面前，人人都在猜哪段是 AI。",
    "angles": [
-    "只讲工具：这类 AI 视频大概用到哪些生成与还原能力，普通人能上手的有哪些",
-    "AI 视频做个人纪念片、老照片动起来的玩法教程",
-    "用 AI 还原场景的边界：哪些内容适合做、哪些要谨慎"
+    "教 5 个肉眼识别 AI 视频的细节：手指、影子、背景文字、口型、帧间抖动",
+    "推荐几个可上手的 AI 检测/溯源工具，附使用步骤",
+    "反向玩法：用 AI 工具自己做一段“看不出是 AI”的短视频并自检"
    ],
    "xhs_titles": [
-    "黄奕用AI还原往事，这技术不神秘",
-    "AI视频还能这么用，普通人也能做"
+    "马斯克都说不是AI，教你5招辨真假",
+    "这段视频是不是AI做的？教你一眼看穿"
    ],
-   "audience": "对 AI 视频感兴趣、想尝试生成内容的普通用户",
-   "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E5%A5%95AI%E8%A7%86%E9%A2%91%E8%BF%98%E5%8E%9F%E8%A2%AB%E5%AE%B6%E6%9A%B4%E9%9B%AA%E8%97%8F%E5%9C%BA%E6%99%AF",
-   "key": "a5588932ddbea538",
+   "audience": "刷短视频的普通用户、内容创作者",
+   "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E6%96%AF%E5%85%8B%E8%AF%B4%E4%B8%8A%E6%B5%B7%E8%B7%B3%E8%88%9E%E8%A7%86%E9%A2%91%E4%B8%8D%E6%98%AFAI",
+   "key": "ad13671962d14dc9",
    "image": ""
   },
   {
-   "title": "抖音热榜：买了机器人想退货",
-   "source": "抖音热榜",
-   "heat": "傅永琪",
+   "title": "B站UP主用AI还原HIM，半个月做出一个游戏BOSS",
+   "source": "B站热门",
+   "heat": "68.1万播放",
    "kind": "ai",
-   "fact": "抖音热榜出现一条标题为「我想退货了！」的视频，带机器人和人工智能标签，内容是用户对机器人产品的吐槽。",
-   "why_hot": "AI 硬件翻车吐槽天然有共鸣，普通人对家用机器人期待高、失望也直接。",
+   "fact": "B站UP主用 Qwen4-Max 开发出传说中 HIM 的 BOSS，再用 AI 复原录制开发情节，策划+开发+录制+后期总耗时接近半个月。",
+   "why_hot": "把“AI 写代码做游戏”落到一个有情怀的具体案例上，玩家和创作者都想复制。",
    "angles": [
-    "盘点家用机器人常见翻车点：哪些功能宣传和实际差距大",
-    "买 AI 硬件前的避坑清单：看参数不如看这几个使用场景",
-    "把吐槽变成选题：哪些 AI 硬件是真有用，哪些是尝鲜税"
+    "复盘这条视频的完整工作流：需求怎么描述、代码怎么迭代、哪里需要人工兜底",
+    "给非开发者的简化版：用 AI 做一个自己的小游戏/BOSS，分步骤截图",
+    "半个月时间账拆解：哪一步最耗时、哪些环节 AI 帮了大忙"
    ],
    "xhs_titles": [
-    "买了机器人想退货，问题出在哪",
-    "AI硬件避坑，这几类先别买"
+    "他用AI半个月做出游戏BOSS，流程拆给你",
+    "不会代码也能用AI做游戏，亲测可行"
    ],
-   "audience": "想入手 AI 硬件、担心踩坑的普通消费者",
-   "url": "https://www.douyin.com/video/7710959736392289545",
-   "key": "f00e34f244d1e729",
-   "image": "https://p26-sign.douyinpic.com/tos-cn-i-dy/83f2fb58e18c4eecbc819f2840efb0c9~tplv-dy-resize-walign-adapt-aq:540:q75.jpeg?lk3s=138a59ce&x-expires=1796706000&x-signature=regLVh%2BwfU2M0ELeRKuzmATgBOA%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=false&sc=cover&biz_tag=aweme_video&l=20261124134226E4AACB87682A2DA710CF",
-   "image_local": "img/2026-11-24/07.jpg"
+   "audience": "游戏爱好者、想用 AI 做小项目的新手",
+   "url": "https://www.bilibili.com/video/BV1Hu1FzKEDR",
+   "key": "545ddba9841d5716",
+   "image": "https://i1.hdslb.com/bfs/archive/fbe728ed5fa5d66ce01c39014639b0962e8b9e59.jpg",
+   "image_local": "img/2026-11-25/04.jpg"
+  },
+  {
+   "title": "Tidal 封杀 AI 生成音乐，普通人做 AI 音乐还能发哪",
+   "source": "Hacker News",
+   "heat": "320 分 · 308 评论",
+   "kind": "ai",
+   "fact": "据 Variety 报道，音乐平台 Tidal 宣布禁止 AI 生成音乐，该消息在 Hacker News 引发 308 条讨论。",
+   "why_hot": "平台开始划线，直接关系到用 AI 做音乐的人能不能发布、能不能变现。",
+   "angles": [
+    "盘点主流平台对 AI 音乐的态度，做一张“能发/不能发”对照表",
+    "普通人做 AI 音乐的合规姿势：标注、改编、二创边界怎么把握",
+    "实测 3 个 AI 音乐工具，做一段可商用背景音乐的完整流程"
+   ],
+   "xhs_titles": [
+    "Tidal禁AI音乐，做AI歌的要注意了",
+    "AI做的歌还能发吗？平台规则一次说清"
+   ],
+   "audience": "AI 音乐爱好者、短视频配乐创作者",
+   "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+   "key": "e4296dc23314453f",
+   "image": ""
+  },
+  {
+   "title": "GPT-6 能设计蛋白质了，AI 在科研里已经走到哪一步",
+   "source": "Hacker News",
+   "heat": "217 分 · 65 评论",
+   "kind": "ai",
+   "fact": "OpenAI 发布预印本，展示 GPT-6 系列模型在蛋白质设计上的内在能力，并完成湿实验验证；另一实验中，107 个按新序列合成的蛋白质有 14 个成功。",
+   "why_hot": "大模型从“聊天”跨到“做实验”，是普通人也能感知的能力跃迁信号。",
+   "angles": [
+    "用大白话讲清“AI 设计蛋白质”是什么，普通人为什么该关心",
+    "盘点 GPT-6 这类能力可能先影响哪些行业，普通人可以提前准备什么",
+    "顺带科普：AI 在科研里帮人类省掉的到底是哪部分工作"
+   ],
+   "xhs_titles": [
+    "GPT-6会设计蛋白质了，这意味着什么",
+    "AI已经不只会聊天，它开始做实验了"
+   ],
+   "audience": "对 AI 前沿好奇的普通读者、学生与科研相关人群",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "key": "997aa7d301e27622",
+   "image": ""
+  },
+  {
+   "title": "AI Agent 到底听谁的？一条 HN 热帖引发的使用提醒",
+   "source": "Hacker News",
+   "heat": "948 分 · 393 评论",
+   "kind": "ai",
+   "fact": "Hacker News 热帖《LLM agents work for their parent companies, not for you》获得 948 分、393 条评论，讨论 AI Agent 的立场与利益归属。",
+   "why_hot": "越来越多人把任务交给 Agent，却很少想它到底在为谁优化，戳中普遍的安全焦虑。",
+   "angles": [
+    "用 3 个日常场景说明：哪些任务适合交给 Agent，哪些别交",
+    "给普通用户的 Agent 使用自查清单：权限、数据、可回滚",
+    "对比几款常用 Agent 工具的权限设置，教你怎么把开关关小"
+   ],
+   "xhs_titles": [
+    "AI Agent不是为你打工的，用前先看这条",
+    "把活交给AI前，先做这3个设置"
+   ],
+   "audience": "已开始用 AI Agent 处理事务的效率工具用户",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "key": "1b959419436524d6",
+   "image": ""
+  },
+  {
+   "title": "PenGPT：AI 能生成手写体和草图，能拿来干什么",
+   "source": "Hacker News",
+   "heat": "139 分 · 24 评论",
+   "kind": "ai",
+   "fact": "Hacker News 出现项目 PenGPT：一个用于手写与草图生成的生成式 Transformer，获得 139 分、24 条评论。",
+   "why_hot": "手写风格生成是小众但高需求的玩法，笔记、手账、设计人群立刻能对上号。",
+   "angles": [
+    "实测用 AI 生成手写体笔记/手账素材的效果与局限",
+    "把手写生成接进日常：做手写风海报、便签、贺卡的 3 个用法",
+    "对比手写生成与普通字体排版，什么场景值得用 AI"
+   ],
+   "xhs_titles": [
+    "AI能写手写体了，手账党先冲",
+    "用AI生成手写笔记，效果比想象中好"
+   ],
+   "audience": "手账/笔记爱好者、做图排版的内容创作者",
+   "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "key": "4c290d157ae61039",
+   "image": ""
+  },
+  {
+   "title": "ShellBench：AI Agent 好不好用，模型和工具哪个更关键",
+   "source": "arXiv",
+   "heat": "2026-11-24",
+   "kind": "ai",
+   "fact": "论文 ShellBench 针对日常任务，研究 AI Agent 的表现更取决于模型还是运行框架（harness），指出普通用户很难判断哪种配置更合适。",
+   "why_hot": "直接回答普通用户最实际的问题：同样的 AI，为什么别人用得好我用不好。",
+   "angles": [
+    "把论文结论翻译成大白话：换模型还是换工具，先改哪个",
+    "同一任务用不同配置跑一遍，给出可复现的对比记录",
+    "给普通人的 Agent 选型建议清单：按任务类型选配置"
+   ],
+   "xhs_titles": [
+    "AI用不好，可能不是模型的问题",
+    "同一个AI，为什么别人用得更顺？"
+   ],
+   "audience": "在挑 AI 工具、想提升成功率的普通用户",
+   "url": "http://arxiv.org/abs/2611.32946v1",
+   "key": "aecb0c79efb1d79d",
+   "image": ""
+  },
+  {
+   "title": "LLM 会不会真的去骗人？一篇论文做了实测",
+   "source": "arXiv",
+   "heat": "2026-11-24",
+   "kind": "ai",
+   "fact": "论文《\"I Do Intend to Deliver\": Will LLMs Run a Marketplace Advance-Fee Scam?》研究托管的大模型是否会执行预付费诈骗类对话任务。",
+   "why_hot": "AI 诈骗是普通人最直接的恐惧点，学术实测比传言更有说服力。",
+   "angles": [
+    "用普通人能懂的方式讲清论文测了什么、结论指向什么",
+    "给家人的 AI 诈骗防身清单：哪类话术要提高警惕",
+    "实测常用 AI 助手对诈骗请求的拒绝表现，做成对比表"
+   ],
+   "xhs_titles": [
+    "AI会不会帮你骗人？有人做了实测",
+    "这几种话术可能是AI写的，转给家人"
+   ],
+   "audience": "关注防诈的普通家庭用户、中老年群体的子女",
+   "url": "http://arxiv.org/abs/2611.32957v1",
+   "key": "049bf3f03f289062",
+   "image": ""
   }
  ]
 }

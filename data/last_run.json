@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "statuses": {
   "微博热搜": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "Hacker News": {
    "ok": true,
-   "count": 25
+   "count": 37
   },
   "GitHub Trending": {
    "ok": true,
@@ -43,15 +43,15 @@
   }
  },
  "stats": {
-  "in": 266,
-  "sensitive": 2,
+  "in": 278,
+  "sensitive": 12,
   "seen": 12,
-  "dup": 29,
+  "dup": 31,
   "stale": 7,
-  "ai": 66,
-  "trend": 126
+  "ai": 74,
+  "trend": 112
  },
- "cards": 7,
- "note": "今天英伟达相关话题虽多，但离普通人较远；真正适合账号的是模型发布、Canva MCP 和 AI 写作玩法。",
+ "cards": 10,
+ "note": "AI 短剧与国产工具实测最贴合账号，其余偏行业与科研，谨慎取用。",
  "pushed": true
 }
