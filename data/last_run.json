@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "statuses": {
   "微博热搜": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "Hacker News": {
    "ok": true,
-   "count": 37
+   "count": 25
   },
   "GitHub Trending": {
    "ok": true,
@@ -43,15 +43,15 @@
   }
  },
  "stats": {
-  "in": 278,
-  "sensitive": 12,
+  "in": 266,
+  "sensitive": 3,
   "seen": 12,
-  "dup": 31,
+  "dup": 30,
   "stale": 7,
-  "ai": 74,
-  "trend": 112
+  "ai": 64,
+  "trend": 126
  },
- "cards": 10,
- "note": "AI 短剧与国产工具实测最贴合账号，其余偏行业与科研，谨慎取用。",
+ "cards": 8,
+ "note": "今日AI热点偏行业与创作玩法，工具实测类选题充足。",
  "pushed": true
 }
