@@ -1,177 +1,219 @@
 {
- "date": "2026-11-26",
- "note": "今日AI热点偏行业与创作玩法，工具实测类选题充足。",
+ "date": "2026-11-27",
+ "note": "今日热点集中在豆包、DeepSeek 等国民工具与 AI 视频玩法，适合做实测类选题。",
  "cards": [
   {
-   "title": "美术生不是被AI干掉的",
+   "title": "患者用豆包质疑医生诊断，AI 看病该信谁",
    "source": "微博热搜",
-   "heat": "42万",
+   "heat": "36万",
    "kind": "ai",
-   "fact": "微博热搜话题「美术生不是被AI干掉的」引发讨论，核心争议是AI绘画会不会取代美术从业者，热度42万。",
-   "why_hot": "AI绘画冲击就业是老焦虑，反方观点出现引发站队讨论，美术生群体共鸣强。",
+   "fact": "微博热搜出现「患者用豆包质疑医生诊断」话题，讨论普通人拿 AI 助手对照医生结论的现象，涉及 AI 在健康咨询中的可信度与使用边界。",
+   "why_hot": "医疗是普通人最焦虑的场景，AI 一句话就能挑战专业权威，天然带争议和代入感。",
    "angles": [
-    "实测3款AI绘画工具画同一张商稿，看它到底能不能替代美术生",
-    "美术生用AI做接单提效的真实工作流：草图到成稿怎么分工",
-    "普通人不懂美术也能用AI出图？3个零基础提示词模板"
+    "实测：把同一份症状描述分别问豆包和通用大模型，看结论差多少、怎么追问才靠谱",
+    "教用户写「就医前问 AI 的 3 句话」模板：整理症状、列可能方向、准备问医生的问题",
+    "盘点 AI 健康咨询的正确用法与红线：能帮挂号整理报告，不能替代诊断"
    ],
    "xhs_titles": [
-    "美术生别慌，AI抢不走这3件事",
-    "我用AI画了张商稿，美术生朋友笑了"
+    "拿豆包质疑医生？AI看病先看这3点",
+    "我用AI问诊踩过的坑，别再照抄了"
    ],
-   "audience": "美术生、设计接单党、担心被AI替代的创作者",
-   "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E6%9C%AF%E7%94%9F%E4%B8%8D%E6%98%AF%E8%A2%ABAI%E5%B9%B2%E6%8E%89%E7%9A%84",
-   "key": "3a6efc8e6fd34e2c",
+   "audience": "有就医焦虑、想用 AI 先自查的普通用户",
+   "url": "https://s.weibo.com/weibo?q=%E6%82%A3%E8%80%85%E7%94%A8%E8%B1%86%E5%8C%85%E8%B4%A8%E7%96%91%E5%8C%BB%E7%94%9F%E8%AF%8A%E6%96%AD",
+   "key": "81eeda15ad03bf7c",
    "image": ""
   },
   {
-   "title": "纽约时报警告摄影师别更新Photoshop，因AI功能",
-   "source": "Hacker News",
-   "heat": "259 分 · 217 评论",
-   "kind": "ai",
-   "fact": "纽约时报提醒摄影师不要因AI功能而升级Photoshop，相关报道在HN获259分、217条评论。",
-   "why_hot": "专业用户对软件默认AI条款的隐私与版权担忧，摄影圈和设计圈都在讨论。",
-   "angles": [
-    "Photoshop的AI功能到底动了什么数据？普通用户该关哪些开关",
-    "不想被AI训练？修图党可用的3个替代方案对比",
-    "更新前必看：PS设置里这2个AI选项建议手动关闭"
-   ],
-   "xhs_titles": [
-    "先别更新PS！这2个AI开关要关",
-    "摄影师都在劝退的PS更新，原因在这"
-   ],
-   "audience": "摄影爱好者、修图党、在意素材版权的普通用户",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "key": "2c94526b7c525011",
-   "image": ""
-  },
-  {
-   "title": "ChatGPT上线Day Do Anything玩法",
-   "source": "X · @OpenAI",
-   "heat": "X 账号动态",
-   "kind": "ai",
-   "fact": "OpenAI官方发推宣传「Make a Day Do Anything with ChatGPT」，主打把普通一天做成电影感内容。",
-   "why_hot": "官方亲自下场推玩法，门槛低、出片感强，适合普通人跟风玩。",
-   "angles": [
-    "用ChatGPT把今天的日常写成电影分镜脚本，附提示词",
-    "3步做出「我的一天像电影」图文，手机就能完成",
-    "同一段生活素材，用ChatGPT生成3种风格的文案对比"
-   ],
-   "xhs_titles": [
-    "用ChatGPT把普通一天拍成电影",
-    "这个ChatGPT新玩法，我先玩上了"
-   ],
-   "audience": "想玩AI创意的普通用户、内容创作者",
-   "url": "https://x.com/OpenAI/status/2125635627341561995",
-   "key": "c41441d0530ac0f7",
-   "image": "https://pbs.twimg.com/amplify_video_thumb/2125628610073739270/img/e-7WA3h0XMo65Pcs.jpg",
-   "image_local": "img/2026-11-26/03.jpg"
-  },
-  {
-   "title": "Karpathy用Claude做文明风格地图",
-   "source": "X · @karpathy",
-   "heat": "X 账号动态",
-   "kind": "ai",
-   "fact": "Karpathy称让Claude抓取并解析大量美国公开数据，填充一张文明风格游戏地图，用的是Opus 5.5。",
-   "why_hot": "大佬示范AI处理真实数据的玩法，普通用户看到「AI能替我干杂活」的可能性。",
-   "angles": [
-    "不用写代码，让AI帮你把一堆公开数据整理成可视化表格",
-    "复刻思路：把Excel丢给AI，生成一张可玩的地图/图表",
-    "普通人版：用AI做一份家乡数据小地图，步骤拆解"
-   ],
-   "xhs_titles": [
-    "大佬用AI做了张游戏地图，我复刻了",
-    "不会代码也能让AI整理数据，亲测"
-   ],
-   "audience": "想用AI处理数据的上班族、学生、AI玩法爱好者",
-   "url": "https://x.com/karpathy/status/2125779541952246039",
-   "key": "d6e996f8f8b88217",
-   "image": "https://pbs.twimg.com/amplify_video_thumb/2125775560517570561/img/GDE8h47dSgwy5uSy.jpg",
-   "image_local": "img/2026-11-26/04.jpg"
-  },
-  {
-   "title": "B站AI全民制作人系列持续霸榜",
-   "source": "B站热门",
-   "heat": "214.8万播放",
-   "kind": "ai",
-   "fact": "B站「AI全民制作人」系列多条视频上榜，其中白化棕熊前史214.8万播放，超长合集也有127.1万播放。",
-   "why_hot": "AI生成动画内容成规模产出，普通人看到零团队做片的可能，播放量证明需求。",
-   "angles": [
-    "拆解AI全民制作人一条视频的制作流程：脚本、分镜、生成、配音",
-    "普通人做AI短片的最小工具组合，预算和耗时实测",
-    "跟着热门AI动画学3个提示词，做出同款画面质感"
-   ],
-   "xhs_titles": [
-    "B站爆火的AI动画，是这么做出来的",
-    "零基础做AI短片，我用了这4个工具"
-   ],
-   "audience": "想做AI视频的普通用户、短视频创作者",
-   "url": "https://www.bilibili.com/video/BV1mJyfzzEBq",
-   "key": "63111f747ffae1cc",
-   "image": "https://i2.hdslb.com/bfs/archive/db6430c779f33563a65798d3c0c46e0d37425a4f.jpg",
-   "image_local": "img/2026-11-26/05.jpg"
-  },
-  {
-   "title": "谷歌杀回AI牌桌中央",
+   "title": "DeepSeek 网页和 App 开始展示消耗额度",
    "source": "知乎热榜",
-   "heat": "103 万热度",
+   "heat": "273 万热度",
    "kind": "ai",
-   "fact": "知乎讨论被戏称「北美大豆包」的谷歌重回AI竞争中心，追问其逆袭的核心路径。",
-   "why_hot": "大厂格局变化自带话题，普通用户关心「该用哪家AI」的实用选择。",
+   "fact": "知乎热榜讨论 DeepSeek 网页端与 App 端开始展示消耗额度，用户关注免费额度如何计算、用多少会受影响。",
+   "why_hot": "DeepSeek 是国民级 AI 工具，任何额度变化都直接影响日常使用习惯，讨论量高。",
    "angles": [
-    "谷歌系AI工具实测：哪些免费好用、适合替代日常搜索",
-    "同一问题问谷歌和国产模型，输出对比给你看",
-    "普通用户该不该换主力AI工具？3个判断标准"
+    "截图实测：在哪看额度、一次长对话大概消耗多少，给普通用户省额度的 5 个习惯",
+    "对比豆包、Kimi、DeepSeek 的免费额度与限制，做一张「白嫖党选型表」",
+    "教你把重活拆成短指令：同样的任务，怎么问更省额度还更准"
    ],
    "xhs_titles": [
-    "谷歌AI翻身了？我实测了3个功能",
-    "别急着换AI，先看这份对比"
+    "DeepSeek开始显示额度了，省着用攻略",
+    "免费AI额度怎么用最久？实测来了"
    ],
-   "audience": "AI工具选择困难的普通用户、效率党",
-   "url": "https://www.zhihu.com/question/2106715996711142004",
-   "key": "1c505a4c0014f8eb",
-   "image": "https://pica.zhimg.com/50/v2-28bd6e04afabbc484f48732a8fdd4134_b.jpg",
-   "image_local": "img/2026-11-26/06.jpg"
+   "audience": "日常用 DeepSeek 写东西、查资料的普通用户",
+   "url": "https://www.zhihu.com/question/2109411707877695723",
+   "key": "1030e31a94adbc9a",
+   "image": "https://picx.zhimg.com/80/v2-f2582e121b4a09d327f1c49a5616f360_720w.webp?source=1def8aca",
+   "image_local": "img/2026-11-27/02.jpg"
   },
   {
-   "title": "梁文锋成全球最富AI模型创始人",
-   "source": "微博热搜",
-   "heat": "27万",
+   "title": "AI 全民制作人：B站超长 AI 动画合集爆火",
+   "source": "B站日榜",
+   "heat": "205.6万",
    "kind": "ai",
-   "fact": "微博热搜称梁文锋成为全球最富AI模型创始人，相关话题热度27万。",
-   "why_hot": "国产AI创业者出圈，大众对国产模型实力和免费工具的好奇被点燃。",
+   "fact": "B站日榜出现 153 分钟 AI 制作动画超长合集，标签为「AI全民制作人」，播放量达 205.6 万，显示 AI 生成内容正批量产出长视频。",
+   "why_hot": "零基础也能做动画的想象空间巨大，普通人对「我也能做」最敏感。",
    "angles": [
-    "他家的模型普通人怎么免费用？3个入口和适用场景",
-    "国产模型实测：写文案、做表格、改简历哪家强",
-    "从这条热搜聊起：普通人现在能用上的免费AI有哪些"
+    "拆解这类 AI 动画的常见生产流程：脚本、分镜、图生视频、配音各用什么工具",
+    "新手 30 分钟做一条 15 秒 AI 短片的最小可行流程，附提示词模板",
+    "盘点免费可用的 AI 视频工具，按「出片速度 / 画质 / 是否要会员」打分"
    ],
    "xhs_titles": [
-    "这条热搜背后，有个免费AI能用",
-    "国产AI免费工具，我整理了3个"
+    "别人用AI做153分钟动画，我30分钟也行",
+    "0基础做AI短片，这套流程照抄就行"
    ],
-   "audience": "想找免费AI工具的普通用户、职场人",
-   "url": "https://s.weibo.com/weibo?q=%E6%A2%81%E6%96%87%E9%94%8B%E6%88%90%E5%85%A8%E7%90%83%E6%9C%80%E5%AF%8CAI%E6%A8%A1%E5%9E%8B%E5%88%9B%E5%A7%8B%E4%BA%BA",
-   "key": "dd17aa2feb1b739d",
+   "audience": "想尝试 AI 视频、没剪辑基础的普通用户",
+   "url": "https://www.bilibili.com/video/av117666081670539/",
+   "key": "f953632c44033310",
+   "image": "http://i2.hdslb.com/bfs/archive/b80ad232ea52e654ee677e8d1ad22e8e1bc77290.jpg",
+   "image_local": "img/2026-11-27/03.jpg"
+  },
+  {
+   "title": "第一人称《西游记》AI 视频，293 万播放",
+   "source": "B站热门",
+   "heat": "293.7万播放",
+   "kind": "ai",
+   "fact": "B站热门视频用第一人称视角重做《西游记》恐怖感场景，标签为「AI全民制作人」，播放 293.7 万。",
+   "why_hot": "经典 IP 加第一人称沉浸感，AI 把「脑洞」变成画面的门槛被直观展示。",
+   "angles": [
+    "教用一句话提示词把名著场景改成第一人称镜头，给出可复制的提示词结构",
+    "盘点 AI 做「经典 IP 二创」的版权与平台规则注意事项",
+    "同题材三工具横评：同一段描述在三个 AI 视频工具里的成片差异"
+   ],
+   "xhs_titles": [
+    "用AI拍第一人称西游记，提示词给你",
+    "名著二创怎么用AI做？我试了3个工具"
+   ],
+   "audience": "喜欢二创、想用 AI 做短视频的内容爱好者",
+   "url": "https://www.bilibili.com/video/BV1j9ykzGEsK",
+   "key": "1c9643c1a406b295",
+   "image": "https://i1.hdslb.com/bfs/archive/526eaa0fef4bd99207eaa385ad8a6e742d86ee44.jpg",
+   "image_local": "img/2026-11-27/04.jpg"
+  },
+  {
+   "title": "「自从我开始用豆包工作」成抖音热梗",
+   "source": "抖音热榜",
+   "heat": "周小闹",
+   "kind": "ai",
+   "fact": "抖音热榜出现「饭店的寒假工，工资5000包括啥？#豆包工作 #自从我开始用豆包工作」内容，普通打工人用豆包处理工作场景的话题在传播。",
+   "why_hot": "把 AI 工具塞进最接地气的工作日常，容易引发「我也这么干」的模仿。",
+   "angles": [
+    "盘点打工人用豆包最高频的 6 个场景：写通知、算账、改简历、做表格思路",
+    "用豆包做一份「寒假工工资明细表」的完整对话演示，可直接照抄",
+    "反向选题：哪些工作别交给 AI，容易出错还费时间"
+   ],
+   "xhs_titles": [
+    "自从用豆包上班，我少加了两小时班",
+    "打工人用豆包干活的6个真实场景"
+   ],
+   "audience": "上班族、兼职学生等想用 AI 减负的普通人",
+   "url": "https://www.douyin.com/video/7711688417125955314",
+   "key": "f5205fa6e5947daf",
+   "image": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/ocQEW134IjgAN3BBKKLDfAG9ltAFDDWg1elrQp~tplv-dy-resize-walign-adapt-aq:540:q75.jpeg?lk3s=138a59ce&x-expires=1796961600&x-signature=85LyRpv%2FQO6XAtM%2FpAE9HMIYfzg%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=false&sc=cover&biz_tag=aweme_video&l=202611271212307CE8C01A699716D2B0B7",
+   "image_local": "img/2026-11-27/05.jpg"
+  },
+  {
+   "title": "AI 让自建服务重新好玩起来",
+   "source": "Hacker News",
+   "heat": "432 分 · 234 评论",
+   "kind": "ai",
+   "fact": "Hacker News 热帖讨论「AI made self-hosting fun again」，认为 AI 降低了自建服务的门槛，引发 234 条评论讨论。",
+   "why_hot": "技术圈对「AI 帮你运维」兴趣高，但需转译成普通人能用的场景。",
+   "angles": [
+    "把自建服务翻译成普通人场景：用 AI 帮你在家用旧电脑搭相册、笔记、下载站",
+    "不写代码版：让 AI 一步步带你部署一个自托管网盘，全程截图",
+    "先劝退再推荐：哪些人根本不需要自建，用现成网盘更省事"
+   ],
+   "xhs_titles": [
+    "旧电脑别扔，让AI帮你搭个私人网盘",
+    "不会代码也能自建服务？AI带我做的"
+   ],
+   "audience": "有闲置设备、想折腾私人云盘的普通用户",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "key": "1d60dbfd5774093c",
    "image": ""
   },
   {
-   "title": "OpenAI测试Private Inference私有推理",
-   "source": "X · @sama",
-   "heat": "X 账号动态",
+   "title": "Google 让 AI 代理接入 MCP，Gmail 那个却不能发邮件",
+   "source": "Hacker News",
+   "heat": "282 分 · 237 评论",
    "kind": "ai",
-   "fact": "Sam Altman称OpenAI正在小范围客户中测试Private Inference，属于OpenAI Private Intelligence的一部分。",
-   "why_hot": "AI隐私是企业与个人共同痛点，官方新动作引发对数据安全的关注。",
+   "fact": "Hacker News 讨论 Google 将让 AI 代理使用其 MCP 服务器，但 Gmail 对应的服务被指无法发送邮件，引发对 AI 代理权限边界的讨论。",
+   "why_hot": "AI 代理接管邮箱是普通人能感知的效率跃迁，权限受限又制造了讨论点。",
    "angles": [
-    "普通人用AI聊天，哪些信息千万别输进去",
-    "AI隐私设置自查清单：5个习惯降低泄露风险",
-    "企业级私有推理是什么？用大白话讲给非技术人"
+    "用大白话讲清 MCP 是什么：为什么它决定 AI 能不能替你操作软件",
+    "实测让 AI 助手代读邮件、总结待办，哪些能做、哪些被卡住",
+    "普通人版「AI 代理」清单：现在真正能替你干的 5 件事"
    ],
    "xhs_titles": [
-    "用AI聊天，这3类信息别发",
-    "AI隐私自查清单，建议收藏"
+    "AI能替你操作邮箱了？实测告诉你真相",
+    "MCP是什么？一句话讲懂AI代理"
    ],
-   "audience": "用AI处理工作资料的上班族、注重隐私用户",
-   "url": "https://x.com/sama/status/2125638790593274259",
-   "key": "992e3645a608d8fd",
+   "audience": "关注 AI 效率工具、想解放双手的职场人",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "key": "4fa6af404c530f0f",
+   "image": ""
+  },
+  {
+   "title": "OpenAI 可能进入成本控制模式",
+   "source": "Hacker News",
+   "heat": "304 分 · 312 评论",
+   "kind": "ai",
+   "fact": "Hacker News 热帖讨论「OpenAI may be in cost control mode」，312 条评论关注其成本压力与产品策略变化。",
+   "why_hot": "头部模型公司动向牵动免费额度、订阅价格，普通用户怕「羊毛变少」。",
+   "angles": [
+    "对普通用户意味着什么：免费额度、订阅价、模型降级的三种可能信号",
+    "备选方案清单：主力模型之外，值得同时留着的 4 个免费 AI 工具",
+    "教你把常用任务做成多模型备份流程，一家限流不耽误干活"
+   ],
+   "xhs_titles": [
+    "OpenAI要省钱了？普通人该做啥准备",
+    "别只用一个AI，我留了4个备胎"
+   ],
+   "audience": "依赖 AI 工具办公、担心涨价限流的用户",
+   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+   "key": "0eec7f9298adb9c4",
+   "image": ""
+  },
+  {
+   "title": "AI 治好的疾病追踪站上热榜",
+   "source": "Hacker News",
+   "heat": "306 分 · 184 评论",
+   "kind": "ai",
+   "fact": "Hacker News 出现「Tracking Diseases Cured by AI」网站讨论，梳理 AI 在疾病治疗中的案例，获 306 分、184 条评论。",
+   "why_hot": "AI 与健康是全民话题，案例清单形式直观、易转发。",
+   "angles": [
+    "挑几个普通人能看懂的方向，讲清 AI 在药物研发里到底做了什么",
+    "冷静视角：这些「治愈」案例和日常用 AI 问诊差多远",
+    "延伸实用选题：普通人能用的 AI 健康管理小工具清单"
+   ],
+   "xhs_titles": [
+    "AI真能治病？这份案例清单值得看",
+    "AI医疗进展到哪了，说人话版"
+   ],
+   "audience": "关注健康科技、想了解 AI 医疗进展的普通读者",
+   "url": "https://diseasescuredbyai.com/",
+   "key": "ea22a7fafa12658a",
+   "image": ""
+  },
+  {
+   "title": "AMD 版 llama.cpp 分支，本地跑模型更省",
+   "source": "Hacker News",
+   "heat": "307 分 · 75 评论",
+   "kind": "ai",
+   "fact": "Hacker News 讨论 AMD 专用的 llama.cpp 分支，聚焦在 AMD 硬件上本地运行大模型的优化，获 307 分、75 条评论。",
+   "why_hot": "本地跑模型是省钱派刚需，显卡用户关注度高。",
+   "angles": [
+    "普通人视角：本地跑 AI 到底适合谁，省的是钱还是隐私",
+    "用旧笔记本或 AMD 显卡跑本地模型的入门路径与体验实录",
+    "本地模型 vs 在线模型实测对比：速度、效果、电费成本"
+   ],
+   "xhs_titles": [
+    "AMD显卡也能本地跑AI了，实测速度",
+    "不花钱用AI：本地跑模型值不值"
+   ],
+   "audience": "有显卡设备、注重隐私和成本的技术向用户",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "key": "bd071c05b2623a04",
    "image": ""
   }
  ]

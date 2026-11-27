@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "statuses": {
   "微博热搜": {
    "ok": true,
@@ -39,19 +39,19 @@
   },
   "X / FxTwitter": {
    "ok": true,
-   "count": 15
+   "count": 9
   }
  },
  "stats": {
-  "in": 266,
-  "sensitive": 3,
+  "in": 260,
+  "sensitive": 4,
   "seen": 12,
-  "dup": 30,
-  "stale": 7,
-  "ai": 64,
-  "trend": 126
+  "dup": 31,
+  "stale": 45,
+  "ai": 20,
+  "trend": 124
  },
- "cards": 8,
- "note": "今日AI热点偏行业与创作玩法，工具实测类选题充足。",
+ "cards": 10,
+ "note": "今日热点集中在豆包、DeepSeek 等国民工具与 AI 视频玩法，适合做实测类选题。",
  "pushed": true
 }
