@@ -1,219 +1,199 @@
 {
- "date": "2026-11-27",
- "note": "今日热点集中在豆包、DeepSeek 等国民工具与 AI 视频玩法，适合做实测类选题。",
+ "date": "2026-11-28",
+ "note": "AI侵权与Agent技能包双热，安全类做借势补充。",
  "cards": [
   {
-   "title": "患者用豆包质疑医生诊断，AI 看病该信谁",
-   "source": "微博热搜",
-   "heat": "36万",
-   "kind": "ai",
-   "fact": "微博热搜出现「患者用豆包质疑医生诊断」话题，讨论普通人拿 AI 助手对照医生结论的现象，涉及 AI 在健康咨询中的可信度与使用边界。",
-   "why_hot": "医疗是普通人最焦虑的场景，AI 一句话就能挑战专业权威，天然带争议和代入感。",
-   "angles": [
-    "实测：把同一份症状描述分别问豆包和通用大模型，看结论差多少、怎么追问才靠谱",
-    "教用户写「就医前问 AI 的 3 句话」模板：整理症状、列可能方向、准备问医生的问题",
-    "盘点 AI 健康咨询的正确用法与红线：能帮挂号整理报告，不能替代诊断"
-   ],
-   "xhs_titles": [
-    "拿豆包质疑医生？AI看病先看这3点",
-    "我用AI问诊踩过的坑，别再照抄了"
-   ],
-   "audience": "有就医焦虑、想用 AI 先自查的普通用户",
-   "url": "https://s.weibo.com/weibo?q=%E6%82%A3%E8%80%85%E7%94%A8%E8%B1%86%E5%8C%85%E8%B4%A8%E7%96%91%E5%8C%BB%E7%94%9F%E8%AF%8A%E6%96%AD",
-   "key": "81eeda15ad03bf7c",
-   "image": ""
-  },
-  {
-   "title": "DeepSeek 网页和 App 开始展示消耗额度",
+   "title": "模特七海被AI短剧融脸成赛博恶役",
    "source": "知乎热榜",
-   "heat": "273 万热度",
+   "heat": "317 万热度",
    "kind": "ai",
-   "fact": "知乎热榜讨论 DeepSeek 网页端与 App 端开始展示消耗额度，用户关注免费额度如何计算、用多少会受影响。",
-   "why_hot": "DeepSeek 是国民级 AI 工具，任何额度变化都直接影响日常使用习惯，讨论量高。",
+   "fact": "模特七海发博称自己的脸被AI短剧拿去当反派角色，引发对AI融脸维权难的讨论。",
+   "why_hot": "AI换脸侵权落到具体真人身上，普通人第一次感到\"我的脸也可能被用\"，情绪共鸣强。",
    "angles": [
-    "截图实测：在哪看额度、一次长对话大概消耗多少，给普通用户省额度的 5 个习惯",
-    "对比豆包、Kimi、DeepSeek 的免费额度与限制，做一张「白嫖党选型表」",
-    "教你把重活拆成短指令：同样的任务，怎么问更省额度还更准"
+    "教读者3步自查：自己的照片有没有被AI短剧/换脸号搬运，附搜索方法",
+    "普通人防AI融脸的实操清单：发图打水印、关定位、少发正脸高清图",
+    "如果脸被AI用了怎么办：存证、平台投诉、维权路径图文流程"
    ],
    "xhs_titles": [
-    "DeepSeek开始显示额度了，省着用攻略",
-    "免费AI额度怎么用最久？实测来了"
+    "我的脸被AI短剧偷去当反派了",
+    "AI融脸防不住？先做这3件事"
    ],
-   "audience": "日常用 DeepSeek 写东西、查资料的普通用户",
-   "url": "https://www.zhihu.com/question/2109411707877695723",
-   "key": "1030e31a94adbc9a",
-   "image": "https://picx.zhimg.com/80/v2-f2582e121b4a09d327f1c49a5616f360_720w.webp?source=1def8aca",
-   "image_local": "img/2026-11-27/02.jpg"
+   "audience": "爱发自拍的女生、内容创作者",
+   "url": "https://www.zhihu.com/question/2109242936701478494",
+   "key": "99f375c48fb425de",
+   "image": "https://picx.zhimg.com/80/v2-96dcad8b5a614258077d54d8465bb0ae_1440w.webp?source=1def8aca",
+   "image_local": "img/2026-11-28/01.jpg"
   },
   {
-   "title": "AI 全民制作人：B站超长 AI 动画合集爆火",
-   "source": "B站日榜",
-   "heat": "205.6万",
+   "title": "冯骥长文谈AI时代人怎么办",
+   "source": "微博热搜",
+   "heat": "16万",
    "kind": "ai",
-   "fact": "B站日榜出现 153 分钟 AI 制作动画超长合集，标签为「AI全民制作人」，播放量达 205.6 万，显示 AI 生成内容正批量产出长视频。",
-   "why_hot": "零基础也能做动画的想象空间巨大，普通人对「我也能做」最敏感。",
+   "fact": "冯骥发布《后AI时代最重要的问题》长文，讨论AI时代普通人该如何自处，知乎同步热议。",
+   "why_hot": "游戏圈大V谈AI焦虑，戳中\"我会不会被AI取代\"的普遍情绪。",
    "angles": [
-    "拆解这类 AI 动画的常见生产流程：脚本、分镜、图生视频、配音各用什么工具",
-    "新手 30 分钟做一条 15 秒 AI 短片的最小可行流程，附提示词模板",
-    "盘点免费可用的 AI 视频工具，按「出片速度 / 画质 / 是否要会员」打分"
+    "把长文观点翻译成普通人能用的3条AI协作习惯",
+    "用AI工具实测：长文里说的能力，哪些现在就能靠工具补上",
+    "打工人版AI焦虑自查表：哪些工作内容最该先交给AI"
    ],
    "xhs_titles": [
-    "别人用AI做153分钟动画，我30分钟也行",
-    "0基础做AI短片，这套流程照抄就行"
+    "冯骥这篇AI长文，打工人该看",
+    "AI时代怎么办？我总结了3条"
    ],
-   "audience": "想尝试 AI 视频、没剪辑基础的普通用户",
-   "url": "https://www.bilibili.com/video/av117666081670539/",
-   "key": "f953632c44033310",
-   "image": "http://i2.hdslb.com/bfs/archive/b80ad232ea52e654ee677e8d1ad22e8e1bc77290.jpg",
-   "image_local": "img/2026-11-27/03.jpg"
+   "audience": "有AI焦虑的职场普通用户",
+   "url": "https://s.weibo.com/weibo?q=%E5%86%AF%E9%AA%A5%E9%95%BF%E6%96%87%E8%B0%88AI%E6%97%B6%E4%BB%A3%E4%BA%BA%E6%80%8E%E4%B9%88%E5%8A%9E",
+   "key": "b9728394bdc626ba",
+   "image": ""
   },
   {
-   "title": "第一人称《西游记》AI 视频，293 万播放",
+   "title": "用Claude在B站做游戏，点击即玩",
    "source": "B站热门",
-   "heat": "293.7万播放",
+   "heat": "24.5万播放",
    "kind": "ai",
-   "fact": "B站热门视频用第一人称视角重做《西游记》恐怖感场景，标签为「AI全民制作人」，播放 293.7 万。",
-   "why_hot": "经典 IP 加第一人称沉浸感，AI 把「脑洞」变成画面的门槛被直观展示。",
+   "fact": "B站AI创造公开赛作品，作者称全程使用Claude Fable 5.2开发搜打撤小游戏，点击链接即可游玩。",
+   "why_hot": "零代码做游戏的门槛被拉到最低，普通人看到\"我也能做\"的可能性。",
    "angles": [
-    "教用一句话提示词把名著场景改成第一人称镜头，给出可复制的提示词结构",
-    "盘点 AI 做「经典 IP 二创」的版权与平台规则注意事项",
-    "同题材三工具横评：同一段描述在三个 AI 视频工具里的成片差异"
+    "拆解一条AI做小游戏的完整提示词流程，普通人照抄能跑",
+    "不用会编程：用AI做可玩小游戏的3个入门模板",
+    "对比B站AI创造公开赛几个作品，看哪种玩法最适合新手复刻"
    ],
    "xhs_titles": [
-    "用AI拍第一人称西游记，提示词给你",
-    "名著二创怎么用AI做？我试了3个工具"
+    "不会代码，我用AI做了个游戏",
+    "AI做小游戏，真的能玩！"
    ],
-   "audience": "喜欢二创、想用 AI 做短视频的内容爱好者",
-   "url": "https://www.bilibili.com/video/BV1j9ykzGEsK",
-   "key": "1c9643c1a406b295",
-   "image": "https://i1.hdslb.com/bfs/archive/526eaa0fef4bd99207eaa385ad8a6e742d86ee44.jpg",
-   "image_local": "img/2026-11-27/04.jpg"
+   "audience": "想玩AI创作但不会写代码的普通人",
+   "url": "https://www.bilibili.com/video/BV1CV1szzEWt",
+   "key": "9bffaaf0b1ee90e4",
+   "image": "https://i0.hdslb.com/bfs/archive/ddcd514a8d1a3c4a3ee8c86500b983cf0f4df00e.jpg",
+   "image_local": "img/2026-11-28/03.jpg"
   },
   {
-   "title": "「自从我开始用豆包工作」成抖音热梗",
-   "source": "抖音热榜",
-   "heat": "周小闹",
+   "title": "Claude技能包扎堆上GitHub热榜",
+   "source": "GitHub Trending",
+   "heat": "1,608 stars today",
    "kind": "ai",
-   "fact": "抖音热榜出现「饭店的寒假工，工资5000包括啥？#豆包工作 #自从我开始用豆包工作」内容，普通打工人用豆包处理工作场景的话题在传播。",
-   "why_hot": "把 AI 工具塞进最接地气的工作日常，容易引发「我也这么干」的模仿。",
+   "fact": "Claude-BugHunter技能包登GitHub热榜，含85个技能、16个斜杠命令；同期diagram-design、last30days-skill等Agent技能项目也在涨星。",
+   "why_hot": "AI Agent从聊天走向\"装技能就能干活\"，工具党关注度集中爆发。",
    "angles": [
-    "盘点打工人用豆包最高频的 6 个场景：写通知、算账、改简历、做表格思路",
-    "用豆包做一份「寒假工工资明细表」的完整对话演示，可直接照抄",
-    "反向选题：哪些工作别交给 AI，容易出错还费时间"
+    "把技能包概念讲成人话：给AI装插件到底能多干什么活",
+    "挑3个非技术也能用的AI技能（做图、查资料、写总结）实测",
+    "手把手：普通人怎么给自己的AI助手加一个\"研究话题\"技能"
    ],
    "xhs_titles": [
-    "自从用豆包上班，我少加了两小时班",
-    "打工人用豆包干活的6个真实场景"
+    "AI装个技能，效率直接翻倍",
+    "这3个AI技能包，普通人也能用"
    ],
-   "audience": "上班族、兼职学生等想用 AI 减负的普通人",
-   "url": "https://www.douyin.com/video/7711688417125955314",
-   "key": "f5205fa6e5947daf",
-   "image": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/ocQEW134IjgAN3BBKKLDfAG9ltAFDDWg1elrQp~tplv-dy-resize-walign-adapt-aq:540:q75.jpeg?lk3s=138a59ce&x-expires=1796961600&x-signature=85LyRpv%2FQO6XAtM%2FpAE9HMIYfzg%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=false&sc=cover&biz_tag=aweme_video&l=202611271212307CE8C01A699716D2B0B7",
-   "image_local": "img/2026-11-27/05.jpg"
+   "audience": "想给AI助手加能力的进阶用户",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "key": "2f6de56d26585940",
+   "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+   "image_local": "img/2026-11-28/04.jpg"
   },
   {
-   "title": "AI 让自建服务重新好玩起来",
+   "title": "last30days：一个技能查遍全网热点",
+   "source": "GitHub Trending",
+   "heat": "675 stars today",
+   "kind": "ai",
+   "fact": "last30days-skill是一个AI Agent技能，可跨Reddit、X、YouTube、HN等平台研究任意话题并生成有依据的总结。",
+   "why_hot": "\"让AI帮你刷完全网再总结\"正好对上做内容、做调研的刚需。",
+   "angles": [
+    "用这个技能做选题调研：输入一个关键词，看它怎么汇总全网讨论",
+    "自媒体人实测：AI跨平台搜集资料 vs 自己手动搜，差多少时间",
+    "把这套思路搬到国内平台：用AI做小红书选题调研的替代玩法"
+   ],
+   "xhs_titles": [
+    "让AI替我刷完全网再总结",
+    "做选题不用手动搜了，AI搞定"
+   ],
+   "audience": "自媒体选题、做调研的内容人",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "key": "76c4821203e5301f",
+   "image": "https://opengraph.githubassets.com/1/mvanhorn/last30days-skill",
+   "image_local": "img/2026-11-28/05.jpg"
+  },
+  {
+   "title": "Ming-Image-0.2设计demo上线",
+   "source": "X · @_akhaliq",
+   "heat": "X 账号动态",
+   "kind": "ai",
+   "fact": "Ming-Image-0.2-Design的demo已在Hugging Face上线，可在浏览器输入提示词生成产品图、UI稿等。",
+   "why_hot": "浏览器直接用、面向设计出图，正好切中电商和自媒体做图需求。",
+   "angles": [
+    "用同一段提示词生成产品图和UI稿，实测效果对比",
+    "电商主图不用PS：这个demo的3种提示词写法",
+    "浏览器就能跑的设计模型，和常用出图工具怎么选"
+   ],
+   "xhs_titles": [
+    "浏览器里就能出产品图了",
+    "这个AI出图demo，电商人先存"
+   ],
+   "audience": "电商卖家、做图的自媒体人",
+   "url": "https://x.com/AntLingAGI/status/2126181261870010751",
+   "key": "460a7363a4980230",
+   "image": "https://pbs.twimg.com/card_img/2126077001136250880/rgrMm2zp?format=jpg&name=800x419",
+   "image_local": "img/2026-11-28/06.jpg"
+  },
+  {
+   "title": "房东AI助手说可晚交租，她被赶走",
    "source": "Hacker News",
-   "heat": "432 分 · 234 评论",
+   "heat": "98 分 · 79 评论",
    "kind": "ai",
-   "fact": "Hacker News 热帖讨论「AI made self-hosting fun again」，认为 AI 降低了自建服务的门槛，引发 234 条评论讨论。",
-   "why_hot": "技术圈对「AI 帮你运维」兴趣高，但需转译成普通人能用的场景。",
+   "fact": "一名女子称房东的AI助手告诉她可以延迟交租，随后她仍被驱逐。",
+   "why_hot": "AI替人做承诺却没人负责，普通人开始警惕\"AI说的话算不算数\"。",
    "angles": [
-    "把自建服务翻译成普通人场景：用 AI 帮你在家用旧电脑搭相册、笔记、下载站",
-    "不写代码版：让 AI 一步步带你部署一个自托管网盘，全程截图",
-    "先劝退再推荐：哪些人根本不需要自建，用现成网盘更省事"
+    "AI客服/助手说的话能不能当依据？普通人留证3招",
+    "遇到AI助手乱承诺怎么办：截图、书面确认、找人工",
+    "哪些场景别信AI助手：租房、退款、合同类对话清单"
    ],
    "xhs_titles": [
-    "旧电脑别扔，让AI帮你搭个私人网盘",
-    "不会代码也能自建服务？AI带我做的"
+    "AI说可以晚交租，结果她被赶走",
+    "AI助手的话，别全信"
    ],
-   "audience": "有闲置设备、想折腾私人云盘的普通用户",
-   "url": "https://janlukas.blog/posts/ai-self-hosting",
-   "key": "1d60dbfd5774093c",
+   "audience": "租房、常和AI客服打交道的普通人",
+   "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+   "key": "77b407a128780584",
    "image": ""
   },
   {
-   "title": "Google 让 AI 代理接入 MCP，Gmail 那个却不能发邮件",
+   "title": "GPT 6.2 Astra解出一道历史谜题",
    "source": "Hacker News",
-   "heat": "282 分 · 237 评论",
+   "heat": "166 分",
    "kind": "ai",
-   "fact": "Hacker News 讨论 Google 将让 AI 代理使用其 MCP 服务器，但 Gmail 对应的服务被指无法发送邮件，引发对 AI 代理权限边界的讨论。",
-   "why_hot": "AI 代理接管邮箱是普通人能感知的效率跃迁，权限受限又制造了讨论点。",
+   "fact": "有文章称GPT 6.2 Astra解决了一个历史谜题，引发讨论。",
+   "why_hot": "\"AI做研究\"的案例最容易让普通人重新想象AI能干什么。",
    "angles": [
-    "用大白话讲清 MCP 是什么：为什么它决定 AI 能不能替你操作软件",
-    "实测让 AI 助手代读邮件、总结待办，哪些能做、哪些被卡住",
-    "普通人版「AI 代理」清单：现在真正能替你干的 5 件事"
+    "普通人版AI查资料法：怎么让AI帮你梳理一个历史话题",
+    "AI做研究靠谱吗？用一个小问题实测它会不会编",
+    "把\"AI解谜\"变成日常用法：旅行前让AI讲清一段历史"
    ],
    "xhs_titles": [
-    "AI能替你操作邮箱了？实测告诉你真相",
-    "MCP是什么？一句话讲懂AI代理"
+    "AI解开了个历史谜题？",
+    "用AI查历史，我试了一次"
    ],
-   "audience": "关注 AI 效率工具、想解放双手的职场人",
-   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-   "key": "4fa6af404c530f0f",
+   "audience": "爱用AI查资料、做功课的用户",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "key": "daec6513daeaa5f0",
    "image": ""
   },
   {
-   "title": "OpenAI 可能进入成本控制模式",
+   "title": "数学家担心AI让网络安全失效",
    "source": "Hacker News",
-   "heat": "304 分 · 312 评论",
+   "heat": "118 分 · 153 评论",
    "kind": "ai",
-   "fact": "Hacker News 热帖讨论「OpenAI may be in cost control mode」，312 条评论关注其成本压力与产品策略变化。",
-   "why_hot": "头部模型公司动向牵动免费额度、订阅价格，普通用户怕「羊毛变少」。",
+   "fact": "有报道称数学家担心AI正让在线安全体系接近失效。",
+   "why_hot": "安全焦虑人人相关，但需要落到普通人能做的动作上。",
    "angles": [
-    "对普通用户意味着什么：免费额度、订阅价、模型降级的三种可能信号",
-    "备选方案清单：主力模型之外，值得同时留着的 4 个免费 AI 工具",
-    "教你把常用任务做成多模型备份流程，一家限流不耽误干活"
+    "普通人现在就该改的3个账号安全习惯",
+    "AI时代密码怎么管：用AI帮你想密码靠不靠谱",
+    "别把敏感信息喂给AI：一份可贴墙的清单"
    ],
    "xhs_titles": [
-    "OpenAI要省钱了？普通人该做啥准备",
-    "别只用一个AI，我留了4个备胎"
+    "AI让密码不安全了？先做这3步",
+    "这3个账号习惯，赶紧改"
    ],
-   "audience": "依赖 AI 工具办公、担心涨价限流的用户",
-   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-   "key": "0eec7f9298adb9c4",
-   "image": ""
-  },
-  {
-   "title": "AI 治好的疾病追踪站上热榜",
-   "source": "Hacker News",
-   "heat": "306 分 · 184 评论",
-   "kind": "ai",
-   "fact": "Hacker News 出现「Tracking Diseases Cured by AI」网站讨论，梳理 AI 在疾病治疗中的案例，获 306 分、184 条评论。",
-   "why_hot": "AI 与健康是全民话题，案例清单形式直观、易转发。",
-   "angles": [
-    "挑几个普通人能看懂的方向，讲清 AI 在药物研发里到底做了什么",
-    "冷静视角：这些「治愈」案例和日常用 AI 问诊差多远",
-    "延伸实用选题：普通人能用的 AI 健康管理小工具清单"
-   ],
-   "xhs_titles": [
-    "AI真能治病？这份案例清单值得看",
-    "AI医疗进展到哪了，说人话版"
-   ],
-   "audience": "关注健康科技、想了解 AI 医疗进展的普通读者",
-   "url": "https://diseasescuredbyai.com/",
-   "key": "ea22a7fafa12658a",
-   "image": ""
-  },
-  {
-   "title": "AMD 版 llama.cpp 分支，本地跑模型更省",
-   "source": "Hacker News",
-   "heat": "307 分 · 75 评论",
-   "kind": "ai",
-   "fact": "Hacker News 讨论 AMD 专用的 llama.cpp 分支，聚焦在 AMD 硬件上本地运行大模型的优化，获 307 分、75 条评论。",
-   "why_hot": "本地跑模型是省钱派刚需，显卡用户关注度高。",
-   "angles": [
-    "普通人视角：本地跑 AI 到底适合谁，省的是钱还是隐私",
-    "用旧笔记本或 AMD 显卡跑本地模型的入门路径与体验实录",
-    "本地模型 vs 在线模型实测对比：速度、效果、电费成本"
-   ],
-   "xhs_titles": [
-    "AMD显卡也能本地跑AI了，实测速度",
-    "不花钱用AI：本地跑模型值不值"
-   ],
-   "audience": "有显卡设备、注重隐私和成本的技术向用户",
-   "url": "https://devnull.land/amd-specific-llama-cpp",
-   "key": "bd071c05b2623a04",
+   "audience": "关心账号安全的普通用户",
+   "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+   "key": "3bc13353c1d1abdc",
    "image": ""
   }
  ]

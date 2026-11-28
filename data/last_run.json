@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "statuses": {
   "微博热搜": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "Hacker News": {
    "ok": true,
-   "count": 25
+   "count": 30
   },
   "GitHub Trending": {
    "ok": true,
@@ -39,19 +39,19 @@
   },
   "X / FxTwitter": {
    "ok": true,
-   "count": 9
+   "count": 12
   }
  },
  "stats": {
-  "in": 260,
-  "sensitive": 4,
-  "seen": 12,
-  "dup": 31,
-  "stale": 45,
-  "ai": 20,
-  "trend": 124
+  "in": 268,
+  "sensitive": 3,
+  "seen": 10,
+  "dup": 34,
+  "stale": 49,
+  "ai": 27,
+  "trend": 120
  },
- "cards": 10,
- "note": "今日热点集中在豆包、DeepSeek 等国民工具与 AI 视频玩法，适合做实测类选题。",
+ "cards": 9,
+ "note": "AI侵权与Agent技能包双热，安全类做借势补充。",
  "pushed": true
 }
